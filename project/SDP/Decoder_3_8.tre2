@@ -1,0 +1,16 @@
+.SUBCIRCUIT =inverter layout Decoder
+.SUBCIRCUIT =And layout Decoder
+.SUBCIRCUIT =Decoder_3_8 layout Decoder
+inverter layout Decoder ( \
+|I7 , \
+|I8 , \
+|I9 )
+And layout Decoder ( \
+|I0 , \
+|I1 , \
+|I2 , \
+|I3 , \
+|I4 , \
+|I5 , \
+|I6 , \
+|I10 )

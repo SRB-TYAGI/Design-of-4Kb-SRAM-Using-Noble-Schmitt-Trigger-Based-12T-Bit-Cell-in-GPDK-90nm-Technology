@@ -1,0 +1,7 @@
+"pmos1v(MOS)" "pmos1v(MOS)"
+"nmos1v(MOS)" "nmos1v(MOS)"
+"inverter layout Decoder" "inverter schematic Decoder" "nmos1v(MOS)" "pmos1v(MOS)"
+"And layout Decoder" "And schematic Decoder" "nmos1v(MOS)" "pmos1v(MOS)"
+"Decoder_3_8 layout Decoder" "Decoder_3_8 schematic Decoder"
+Devices filtered from layout
+"TIE"

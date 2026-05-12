@@ -1,0 +1,141 @@
+*
+*
+*
+*                       LINUX           Fri Feb 20 22:24:01 2026
+*
+*
+*
+*  PROGRAM  advgen
+*
+*  HSPICE LIBRARY
+*
+*
+*
+
+*
+.SUBCKT And Vdd gnd Vout a b c
+*
+*
+*  caps2d version: 10
+*
+*
+*       TRANSISTOR CARDS
+*
+*
+MavD1_1	avC8	a#3	avC7#5	gnd#2	nmos1v#20ivpcell#20gpdk090	L=0.1U
++ W=0.12U
++ AD=0.0072P	AS=0.0696P	PD=0.24U	PS=1.16U
++ simW=1.2e-07 fw=1.2e-07
+MavD1_2	avC9	b#3	avC8	gnd#2	nmos1v#20ivpcell#20gpdk090	L=0.1U
++ W=0.12U
++ AD=0.0072P	AS=0.0072P	PD=0.24U	PS=0.24U
++ simW=1.2e-07 fw=1.2e-07
+MavD1_3	gnd#5	c#3	avC9	gnd#2	nmos1v#20ivpcell#20gpdk090	L=0.1U
++ W=0.12U
++ AD=0.0408P	AS=0.0072P	PD=0.68U	PS=0.24U
++ simW=1.2e-07 fw=1.2e-07
+MavD1_4	Vout#2	avC7#16	gnd#5	gnd#2	nmos1v#20ivpcell#20gpdk090
++ L=0.1U	W=0.12U
++ AD=0.0696P	AS=0.0408P	PD=1.16U	PS=0.68U
++ simW=1.2e-07 fw=1.2e-07
+MavD7_1	Vdd#8	a#1	avC7	Vdd#5	pmos1v#20ivpcell#20gpdk090	L=0.1U
++ W=0.12U
++ AD=0.0408P	AS=0.0696P	PD=0.68U	PS=1.16U
++ simW=1.2e-07 fw=1.2e-07
+MavD7_2	avC7#9	b#2	Vdd#8	Vdd#5	pmos1v#20ivpcell#20gpdk090	L=0.1U
++ W=0.12U
++ AD=0.0408P	AS=0.0408P	PD=0.68U	PS=0.68U
++ simW=1.2e-07 fw=1.2e-07
+MavD7_3	Vdd#1	c#2	avC7#9	Vdd#5	pmos1v#20ivpcell#20gpdk090	L=0.1U
++ W=0.12U
++ AD=0.0408P	AS=0.0408P	PD=0.68U	PS=0.68U
++ simW=1.2e-07 fw=1.2e-07
+MavD7_4	Vout#5	avC7#15	Vdd#1	Vdd#5	pmos1v#20ivpcell#20gpdk090
++ L=0.1U	W=0.12U
++ AD=0.0696P	AS=0.0408P	PD=1.16U	PS=0.68U
++ simW=1.2e-07 fw=1.2e-07
+*
+*
+*       RESISTOR AND CAP/DIODE CARDS
+*
+Rh1	avC7#14	avC7#12	    0.3262	$mt2
++ $X=1.8925 $Y=2.38
+Rh2	avC7#12	avC7#4	    0.4497	$mt2	$X=0.9025 $Y=2.38
+Rh3	avC7#4	avC7#8	    0.5038	$mt2	$X=0.39 $Y=1.7475
+Ri2	avC7#2	avC7#4	    1.6510	$mt1	$X=0.39 $Y=2.558
+Ri3	avC7	avC7#2	   15.0000	$mt1	$X=0.39 $Y=2.78
+Ri5	avC7#6	avC7#8	    1.5997	$mt1	$X=0.39 $Y=1.022
+Ri6	avC7#5	avC7#6	   15.0000	$mt1	$X=0.39 $Y=0.83
+Ri7	a#2	a	   10.3530	$mt1	$X=0.325 $Y=2.03
+Ri8	b#1	b	   10.6463	$mt1	$X=0.545 $Y=1.74
+Ri10	avC7#10	avC7#12	    1.6397	$mt1
++ $X=1.47 $Y=2.558
+Ri11	avC7#9	avC7#10	   15.0000	$mt1	$X=1.47 $Y=2.78
+Ri12	c#1	c	   11.0730	$mt1	$X=0.865 $Y=1.47
+Ri13	avC7#13	avC7#14	   11.4000	$mt1
++ $X=2.26 $Y=2.27
+Ri14	Vout	Vout#1	    0.1021	$mt1	$X=2.6505 $Y=1.8
+Ri15	Vout#1	Vout#3	    0.9966	$mt1	$X=2.55 $Y=1.52
+Ri17	Vout#1	Vout#6	    0.6472	$mt1	$X=2.55 $Y=2.26
+Ri19	Vout#2	Vout#3	   15.0000	$mt1	$X=1.91 $Y=0.83
+Ri20	Vout#5	Vout#6	   15.0000	$mt1	$X=2.55 $Y=2.78
+Ri22	Vdd#2	Vdd	    0.5599	$mt1	$X=2.01 $Y=3.1945
+Ri23	Vdd	Vdd#4	    0.9159	$mt1	$X=1.47 $Y=3.55
+Ri25	Vdd#4	Vdd#7	    0.2787	$mt1	$X=0.93 $Y=3.04
+Ri26	Vdd#7	Vdd#8	   15.0000	$mt1	$X=0.93 $Y=2.78
+Ri27	Vdd#1	Vdd#2	   15.0000	$mt1	$X=2.01 $Y=2.78
+Ri28	Vdd#5	Vdd#4	    5.0000	$mt1	$X=0.66 $Y=3.24
+Ri29	gnd	gnd#1	    0.6185	$mt1	$X=1.5805 $Y=0.06
+Ri31	gnd#1	gnd#4	    0.2787	$mt1	$X=1.37 $Y=0.57
+Ri32	gnd#4	gnd#5	   15.0000	$mt1	$X=1.37 $Y=0.83
+Ri33	gnd#2	gnd#1	    5.0000	$mt1	$X=1.64 $Y=0.37
+Rj1	a#1	a#2	   62.1026	$poly	$X=0.66 $Y=2.425
+Rj2	a#2	a#3	  107.1026	$poly	$X=0.66 $Y=1.41
+Rj3	b#2	b#1	   97.8685	$poly	$X=1.2 $Y=2.28
+Rj4	b#1	b#3	   82.6543	$poly	$X=0.87 $Y=1.64
+Rj5	c#2	c#1	  118.1026	$poly	$X=1.74 $Y=2.145
+Rj6	c#1	c#3	   97.1315	$poly	$X=1.35 $Y=1.42
+Rj7	avC7#15	avC7#13	   28.6924	$poly
++ $X=2.28 $Y=2.6125
+Rj8	avC7#13	avC7#16	  176.8670	$poly
++ $X=2.28 $Y=1.6425
+*
+*       CAPACITOR CARDS
+*
+*
+C1	Vdd	gnd	1.246E-16	$X=2.008 $Y=3.399
+C2	Vout	gnd	2.973E-17	$X=2.728 $Y=1.797
+C3	a	gnd	6.278E-17	$X=0.16 $Y=2.027
+C4	b	gnd	1.130E-16	$X=0.27 $Y=1.737
+C5	c	gnd	1.595E-16	$X=0.4305 $Y=1.467
+C6	a#1	gnd	5.682E-17	$X=0.6575 $Y=2.72
+C7	b#2	gnd	8.083E-17	$X=1.1975 $Y=2.6415
+C8	c#2	gnd	9.545E-17	$X=1.7375 $Y=2.58
+C9	avC7#15	gnd	4.208E-17	$X=2.2775 $Y=2.8135
+C10	a#3	gnd	1.143E-16	$X=0.6575 $Y=0.997
+C11	b#3	gnd	1.217E-16	$X=0.8775 $Y=0.9185
+C12	c#3	gnd	1.056E-16	$X=1.0975 $Y=0.962
+C13	avC7#16	gnd	1.167E-16	$X=1.638 $Y=0.9175
+C14	a#2	gnd	1.813E-16	$X=0.5875 $Y=1.971
+C15	b#1	gnd	2.587E-16	$X=0.9425 $Y=1.7245
+C16	c#1	gnd	2.250E-16	$X=1.3375 $Y=1.442
+C17	avC7#13	gnd	1.508E-16	$X=2.278 $Y=1.878
+C18	avC7#8	gnd	1.092E-16	$X=0.3885 $Y=1.2815
+C19	avC7#4	gnd	1.093E-16	$X=0.4245 $Y=2.3885
+C20	avC7#12	gnd	8.122E-17	$X=1.468 $Y=2.4025
+C21	avC7#14	gnd	8.867E-17	$X=2.2565 $Y=2.2795
+C22	Vdd#5	gnd	7.824E-17	$X=1.0735 $Y=3.2065
+C23	Vout#2	gnd	3.021E-19	$X=1.9075 $Y=0.8275
+C24	Vdd#4	gnd	1.258E-16	$X=0.929 $Y=3.322
+C25	Vdd#7	gnd	4.528E-17	$X=0.9275 $Y=2.847
+C26	avC7#2	gnd	3.088E-17	$X=0.3875 $Y=2.726
+C27	avC7#6	gnd	2.636E-17	$X=0.3875 $Y=0.863
+C28	avC7#10	gnd	4.308E-17	$X=1.4675 $Y=2.726
+C29	Vout#1	gnd	1.188E-16	$X=2.548 $Y=1.7165
+C30	Vout#3	gnd	8.840E-17	$X=1.908 $Y=1.002
+C31	Vout#6	gnd	7.359E-17	$X=2.5475 $Y=2.577
+C32	Vdd#2	gnd	4.560E-17	$X=2.0075 $Y=2.924
+*
+*
+.ENDS And
+*

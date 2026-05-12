@@ -1,0 +1,3 @@
+#!/bin/sh -f
+/home/buet/cadence/ASSURA41/tools/assura/bin/assura /home/buet/Desktop/SDP/rcx.Decoder_3_8.rsf -cdslib /home/buet/Desktop/SDP/cds.lib
+exit $?

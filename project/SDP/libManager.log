@@ -1,0 +1,48 @@
+\o Program:		@(#)$CDS: libManager version 6.1.5 - CAT32 10/23/2012 17:36 (cat91amd) $
+\o Sub version:		sub-version  s011 
+\o Arguments:		-unmapped -mpssession virtuoso3548 -mpshost cadence 
+\o Working Directory:	cadence:/home/buet/Desktop/SDP
+\o Qt version: 		4.5.3
+\o changeWorkingDir("/home/buet/Desktop/SDP") unnecessary.
+\o ddSetForcedLib("") unnecessary.
+\o Log file is "/home/buet/Desktop/SDP/libManager.log".
+\o Opening libManager window.
+\a nrSetWindowVisibility(cdsLibManager "show")
+\o MPS service: map window
+\a nrSetCurrentWindow(cdsLibManager)
+\o Library Manager customization server connected.
+\a nrResizeWindow(cdsLibManager list(381 135 600 448))
+\a cdsLibManager->libListBox->value = "Decoder_3_8"
+\a lmgrLogShowPopup("mainListPopup0" 59 2 2 "Decoder_3_8")
+\a cdsLibManager->libLineEdit->value = "Decoder_3_8"
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(368 147 627 425))
+\a deleteForm->moveToDontDeleteButton->value = t
+\a deleteForm->moveToDeleteButton->value = t
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(500 240 427 308))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting 1 library.
+\o Deleting library "Decoder_3_8".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\o Deleted library 'Decoder_3_8'.
+\o Delete of library "Decoder_3_8" succeeded.
+\o Deletion of library done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(workingDialogForm list(2 26 281 131))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\o libManager is exiting.
+\a exit(0)

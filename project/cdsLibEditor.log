@@ -1,0 +1,67 @@
+\o Program:		@(#)$CDS: cdsLibEditor version 6.1.5 - CAT32 10/23/2012 17:38 (cat91amd) $
+\o Sub version:		sub-version  s011 
+\o Arguments:		-display :0.0 -mpssession virtuoso7260 -mpshost cadence -namespace CDBA -cdslib /home/buet/cadence/IC615/share/cdssetup/cds.lib 
+\o Working Directory:	cadence:/home/buet/Desktop/project
+\a nrSetWindowVisibility(cdsLibEditor "show")
+\o Qt version: 		4.5.3
+\a nrSetCurrentWindow(cdsLibEditor)
+\a nrListItemAction(cdsLibEditor->mainTable 0 0)
+\o Active cell: 0 0 "cdsDefTechLib"
+\a nrResizeWindow(cdsLibEditor list(-2 -26 500 400))
+\a nrListItemAction(cdsLibEditor->mainTable 11 0)
+\o Active cell: 11 0 ""
+\a cdsLibEditor->editAddLibButton->value = t
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/Desktop/project"
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share/cdssetup"
+\a newLibraryDialog->useMappedName->value = nil
+\a nrSetWindowVisibility(newLibraryDialog "show")
+\a nrSetCurrentWindow(newLibraryDialog)
+\a nrResizeWindow(newLibraryDialog list(-2 -1 531 513))
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share/cdssetup/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share/cdssetup"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share/cdssetup/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share/cdssetup"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/share/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615/.."
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/IC615"
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence"
+\a newLibraryDialog->dirListWidget->value = ".."
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/cadence/.."
+\a nrListItemAction(newLibraryDialog->dirListWidget 0 0)
+\a newLibraryDialog->filePathComboBox->value = "/home/buet"
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "Desktop"
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/Desktop"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->dirListWidget->value = "project"
+\a newLibraryDialog->filePathComboBox->value = "/home/buet/Desktop/project"
+\a nrListItemAction(newLibraryDialog->dirListWidget 1 0)
+\a newLibraryDialog->dirListWidget->value = nil
+\a newLibraryDialog->libraryListBox->value = "SRAM12T"
+\a newLibraryDialog->useMappedName->value = t
+\a newLibraryDialog->libraryName->value = "SRAM12T"
+\a newLibraryDialog->okButton->value = t
+\a newLibraryDialog->libraryListBox->value = nil
+\a newLibraryDialog->useMappedName->value = nil
+\a newLibraryDialog->libraryName->value = ""
+\a nrListItemAction(cdsLibEditor->mainTable 12 0)
+\o Active cell: 12 0 ""
+\a nrSetCurrentWindow(cdsLibEditor)
+\a cdsLibEditor->fileSaveButton->value = t
+\a cdsLibEditor->fileExitButton->value = t
+\a nrSetWindowVisibility(cdsLibEditor "hide")
+\a exit(0)

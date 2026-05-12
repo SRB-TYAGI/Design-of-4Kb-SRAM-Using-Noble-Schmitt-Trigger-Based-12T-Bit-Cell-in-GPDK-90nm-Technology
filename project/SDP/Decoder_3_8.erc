@@ -1,0 +1,20 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'Decoder_3_8 layout Decoder':
+  info: Assign pin label "gnd" at (7.1300, 0.0600) to layer `Metal1_p'.
+  info: Assign pin label "Y7" at (7.9000, 1.8000) to layer `Metal1_p'.
+  info: Assign pin label "Y6" at (7.9000, 5.7200) to layer `Metal1_p'.
+  info: Assign pin label "Y5" at (7.9000, 9.7300) to layer `Metal1_p'.
+  info: Assign pin label "Y4" at (7.9000, 13.8500) to layer `Metal1_p'.
+  info: Assign pin label "C" at (0.0600, 24.7100) to layer `Metal1_p'.
+  info: Assign pin label "Y3" at (7.9000, 17.9800) to layer `Metal1_p'.
+  info: Assign pin label "B" at (0.0600, 27.3400) to layer `Metal1_p'.
+  info: Assign pin label "Y2" at (7.9000, 21.9900) to layer `Metal1_p'.
+  info: Assign pin label "A" at (0.0600, 29.9700) to layer `Metal1_p'.
+  info: Assign pin label "Y1" at (7.9000, 25.8400) to layer `Metal1_p'.
+  info: Assign pin label "Y0" at (7.9000, 29.7200) to layer `Metal1_p'.
+  info: Assign pin label "Vdd" at (7.1600, 31.4700) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

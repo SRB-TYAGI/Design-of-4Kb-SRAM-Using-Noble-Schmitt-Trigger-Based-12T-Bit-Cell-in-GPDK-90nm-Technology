@@ -1,0 +1,5 @@
+"pmos1v(MOS)" "pmos1v(MOS)"
+"nmos1v(MOS)" "nmos1v(MOS)"
+"And layout Decoder" "And schematic Decoder" "nmos1v(MOS)" "pmos1v(MOS)"
+Devices filtered from layout
+"TIE"

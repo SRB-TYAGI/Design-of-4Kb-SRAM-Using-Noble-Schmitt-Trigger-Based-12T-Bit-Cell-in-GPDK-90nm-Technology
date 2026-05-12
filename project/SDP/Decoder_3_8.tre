@@ -1,0 +1,16 @@
+.SUBCIRCUIT =And schematic Decoder
+.SUBCIRCUIT =inverter schematic Decoder
+.SUBCIRCUIT =Decoder_3_8 schematic Decoder
+And schematic Decoder ( \
+I0 , \
+I1 , \
+I2 , \
+I3 , \
+I4 , \
+I5 , \
+I6 , \
+I10 )
+inverter schematic Decoder ( \
+I7 , \
+I8 , \
+I9 )

@@ -1,0 +1,37 @@
+@(#)$CDS: nvn version av4.1:Production:dfII6.1.4:IC6.1.4.500.10 07/01/2011 03:13 (sjlin80) $
+sub-version 4.1_USR2_HF8, integ signature 2011-07-01-0228
+run on cadence at Sat Feb 21 12:23:26 2026
+
+Schematic                       | Layout                       | Status
+-------------------------------------------------------------------------------
+inverter schematic Decoder      | inverter layout Decoder      | matched    
+And schematic Decoder           | And layout Decoder           | matched    
+Decoder_3_8 schematic Decoder   | Decoder_3_8 layout Decoder   | matched    
+
+Schematic and Layout Match
+
+Schematic:
+  Library:Decoder
+  Cell   :Decoder_3_8
+  View   :schematic
+
+Layout:
+  Library:Decoder
+  Cell   :Decoder_3_8
+  View   :layout
+
+
+
+Extraction  Information
+--------------------
+     0 cells have 0 mal-formed device problems
+     0 cells have 0 label short problems
+     0 cells have 0 label open problems
+
+Mismatch  Information
+--------------------
+     0 cells have 0 Net mismatches
+     0 cells have 0 Device mismatches
+     0 cells have 0 Pin mismatches
+     0 cells have 0 Parameter mismatches
+

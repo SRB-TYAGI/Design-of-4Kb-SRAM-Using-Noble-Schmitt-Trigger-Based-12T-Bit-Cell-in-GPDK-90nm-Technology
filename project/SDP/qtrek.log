@@ -1,0 +1,235 @@
+*INFO* (LO-1027): 5100 license successfully checked out for Virtuoso_Layout_Migrate.
+Mapping file ./migratemap.il not loaded.
+Copy hierarchy Decoder/And/layout to Decoder/And/migrate
+*WARNING* (LO-2095): Rule minDiagonalEdgeLength ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minProtrusionNumCut ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule maxDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_OXIDE_minSpacingOver is redundant with rule foundry_CONT_gate12_OXIDE_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_OXIDE_THK_minSpacingOver is redundant with rule foundry_CONT_gate25_OXIDE_THK_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_POLY_minSpacingOver is redundant with rule foundry_CONT_gate12_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_POLY_minSpacingOver is redundant with rule foundry_CONT_gate25_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA6_minWidth is redundant with rule foundry_VIA6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL7_minWidth is redundant with rule foundry_METAL7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA7_minWidth is redundant with rule foundry_VIA7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL8_minWidth is redundant with rule foundry_METAL8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA8_minWidth is redundant with rule foundry_VIA8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL9_minWidth is redundant with rule foundry_METAL9_minWidth and will be ignored.
+
+*WARNING* (LO-2095): Rule minDiagonalEdgeLength ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minProtrusionNumCut ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule maxDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_OXIDE_minSpacingOver is redundant with rule foundry_CONT_gate12_OXIDE_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_OXIDE_THK_minSpacingOver is redundant with rule foundry_CONT_gate25_OXIDE_THK_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_POLY_minSpacingOver is redundant with rule foundry_CONT_gate12_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_POLY_minSpacingOver is redundant with rule foundry_CONT_gate25_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA6_minWidth is redundant with rule foundry_VIA6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL7_minWidth is redundant with rule foundry_METAL7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA7_minWidth is redundant with rule foundry_VIA7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL8_minWidth is redundant with rule foundry_METAL8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA8_minWidth is redundant with rule foundry_VIA8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL9_minWidth is redundant with rule foundry_METAL9_minWidth and will be ignored.
+
+Step "Preprocess" is running...Fri Feb 20 14:55:20 2026
+
+Backup hierarchy Decoder/And/migrate to Decoder/And/vlm_save
+Step "Preprocess" completed  Fri Feb 20 14:55:21 2026
+
+Total CPU time for step Preprocess: 0 seconds
+*WARNING* (LO-2095): Rule minDiagonalEdgeLength ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minProtrusionNumCut ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule maxDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_OXIDE_minSpacingOver is redundant with rule foundry_CONT_gate12_OXIDE_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_OXIDE_THK_minSpacingOver is redundant with rule foundry_CONT_gate25_OXIDE_THK_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_POLY_minSpacingOver is redundant with rule foundry_CONT_gate12_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_POLY_minSpacingOver is redundant with rule foundry_CONT_gate25_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA6_minWidth is redundant with rule foundry_VIA6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL7_minWidth is redundant with rule foundry_METAL7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA7_minWidth is redundant with rule foundry_VIA7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL8_minWidth is redundant with rule foundry_METAL8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA8_minWidth is redundant with rule foundry_VIA8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL9_minWidth is redundant with rule foundry_METAL9_minWidth and will be ignored.
+
+Step "Create holding cells" is running...Fri Feb 20 14:55:21 2026
+
+Step "Create holding cells" failed  Fri Feb 20 14:55:21 2026
+
+Total CPU time for step Create holding cells: 0 seconds
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+Cannot step because last step is not completed.
+*INFO* (LO-1027): 5100 license successfully checked out for Virtuoso_Layout_Migrate.
+Mapping file ./migratemap.il not loaded.
+Copy hierarchy Decoder/And/_loOptArea_0 to Decoder/And/_loOptArea_0
+*WARNING* (LO-2095): Rule minDiagonalEdgeLength ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minProtrusionNumCut ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule maxDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_OXIDE_minSpacingOver is redundant with rule foundry_CONT_gate12_OXIDE_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_OXIDE_THK_minSpacingOver is redundant with rule foundry_CONT_gate25_OXIDE_THK_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_POLY_minSpacingOver is redundant with rule foundry_CONT_gate12_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_POLY_minSpacingOver is redundant with rule foundry_CONT_gate25_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA6_minWidth is redundant with rule foundry_VIA6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL7_minWidth is redundant with rule foundry_METAL7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA7_minWidth is redundant with rule foundry_VIA7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL8_minWidth is redundant with rule foundry_METAL8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA8_minWidth is redundant with rule foundry_VIA8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL9_minWidth is redundant with rule foundry_METAL9_minWidth and will be ignored.
+
+*WARNING* (LO-2095): Rule minDiagonalEdgeLength ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minProtrusionNumCut ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule maxDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_OXIDE_minSpacingOver is redundant with rule foundry_CONT_gate12_OXIDE_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_OXIDE_THK_minSpacingOver is redundant with rule foundry_CONT_gate25_OXIDE_THK_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_POLY_minSpacingOver is redundant with rule foundry_CONT_gate12_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_POLY_minSpacingOver is redundant with rule foundry_CONT_gate25_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA6_minWidth is redundant with rule foundry_VIA6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL7_minWidth is redundant with rule foundry_METAL7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA7_minWidth is redundant with rule foundry_VIA7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL8_minWidth is redundant with rule foundry_METAL8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA8_minWidth is redundant with rule foundry_VIA8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL9_minWidth is redundant with rule foundry_METAL9_minWidth and will be ignored.
+
+Step "Preprocess" is running...Fri Feb 20 14:56:09 2026
+
+Backup hierarchy Decoder/And/_loOptArea_0 to Decoder/And/vlm_save
+Script ./_loOptAreaPreprocess.qts is running...
+// The OptArea Function Definitions
+function _OPTAREA_ = SUBSTRATE
+function _optAreaTemp = _OPTAREA_ & ~ Y0_DRAWING
+create_elements nohier And Y0_DRAWING _optAreaTemp
+
+// The OptArea Freeze Commands
+freeze * area Y0_DRAWING
+freeze * layers NWELL_DRAWING OXIDE_DRAWING POLY_DRAWING PIMP_DRAWING NIMP_DRAWING METAL1_DRAWING VIA1_DRAWING METAL2_DRAWING PWDUMMY_DRAWING
+
+Script ./_loOptAreaPreprocess.qts completed successfully.
+Step "Preprocess" completed  Fri Feb 20 14:56:10 2026
+
+Total CPU time for step Preprocess: 1 second
+*WARNING* (LO-2095): Rule minDiagonalEdgeLength ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minProtrusionNumCut ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule defaultAntennaRule ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule minDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule maxDensity ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2095): Rule errorLayer ignored, since it is currently not supported by VLM.
+*WARNING* (LO-2073): No yield member constraint group defined in VLMDefaultSetup; reading foundry rules.
+*WARNING* (LO-2100): Cannot open migrate map file migratemap.il.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_OXIDE_minSpacingOver is redundant with rule foundry_CONT_gate12_OXIDE_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_OXIDE_THK_minSpacingOver is redundant with rule foundry_CONT_gate25_OXIDE_THK_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate12_POLY_minSpacingOver is redundant with rule foundry_CONT_gate12_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule DFM_CONT_gate25_POLY_minSpacingOver is redundant with rule foundry_CONT_gate25_POLY_minSpacingOver and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_CONT_minWidth is redundant with rule foundry_CONT_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL1_minWidth is redundant with rule foundry_METAL1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA1_minWidth is redundant with rule foundry_VIA1_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL2_minWidth is redundant with rule foundry_METAL2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA2_minWidth is redundant with rule foundry_VIA2_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL3_minWidth is redundant with rule foundry_METAL3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA3_minWidth is redundant with rule foundry_VIA3_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL4_minWidth is redundant with rule foundry_METAL4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA4_minWidth is redundant with rule foundry_VIA4_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL5_minWidth is redundant with rule foundry_METAL5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA5_minWidth is redundant with rule foundry_VIA5_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL6_minWidth is redundant with rule foundry_METAL6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA6_minWidth is redundant with rule foundry_VIA6_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL7_minWidth is redundant with rule foundry_METAL7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA7_minWidth is redundant with rule foundry_VIA7_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL8_minWidth is redundant with rule foundry_METAL8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_VIA8_minWidth is redundant with rule foundry_VIA8_minWidth and will be ignored.
+*WARNING* (LO-2133): Rule LEFDefaultRouteSpec_gpdk090_METAL9_minWidth is redundant with rule foundry_METAL9_minWidth and will be ignored.
+
+Step "Create holding cells" is running...Fri Feb 20 14:56:11 2026
+
+Step "Create holding cells" failed  Fri Feb 20 14:56:11 2026
+
+Total CPU time for step Create holding cells: 0 seconds

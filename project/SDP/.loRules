@@ -1,0 +1,384 @@
+foundry_NBURIED_minWidth Minimum Nburied Width
+foundry_NBURIED_minSpacing Minimum Nburied Space
+foundry_NWELL_minWidth Minimum Nwell Width
+foundry_NWELL_minSpacing Minimum Nwell Spacing (same potential) minSameNetSpacing 0.6
+foundry_PWDUMMY_minWidth Minimum PWdummy Width
+foundry_PWDUMMY_minSpacing Minimum PWdummy Space
+foundry_OXIDE_minWidth Minimum Bent 45 degree Oxide Width minDiagonalWidth 0.13
+foundry_OXIDE_minSpacing Minimum Bent 45 degree Oxide Space minDiagonalSpacing 0.18
+foundry_ndiff_minSpacing Minimum N+ Active Area Space
+foundry_pdiff_minSpacing Minimum P+ Active Area Space
+foundry_OXIDE_THK_minWidth Minimum Thick Oxide Width
+foundry_OXIDE_THK_minSpacing Minimum Bent 45 degree Thick Oxide Space minDiagonalSpacing 0.75
+foundry_ndiff25_minSpacing Minimum N+ 2.5V Active Area Space
+foundry_pdiff25_minSpacing Minimum P+ 2.5V Active Area Space
+foundry_ngate12_minWidth Minimum 1.2V N-channel Gate Length
+foundry_pgate12_minWidth Minimum 1.2V P-channel Gate Length
+foundry_ngate25_minWidth Minimum 2.5V N-channel Gate Length
+foundry_pgate25_minWidth Minimum 2.5V P-channel Gate Length
+foundry_POLY_minWidth Minimum Bent Poly Width minDiagonalWidth 0.18
+foundry_POLY_minSpacing Minimum Bent Poly Space minDiagonalSpacing 0.22
+foundry_gate12_minSpacing Minimum Poly Gate Space
+foundry_gate25_minSpacing Minimum Thick Poly Gate Space
+foundry_PIMP_minWidth Minimum P+ Implant Width
+foundry_PIMP_minSpacing Minimum P+ Implant Space
+foundry_NIMP_minWidth Minimum N+ Implant Width
+foundry_NIMP_minSpacing Minimum N+ Implant Space
+foundry_NZVT_minWidth Minimum Nzvt Width
+foundry_NZVT_minSpacing Minimum Nzvt Space
+foundry_SIPROT_minWidth Minimum Salicide Block Width
+foundry_SIPROT_minSpacing Minimum Salicide Block Space
+foundry_CONT_minWidth Minimum Contact Width
+foundry_CONT_minSpacing Minimum Contact Space
+foundry_CAPMETAL_minWidth Minimum Capacitor Metal Width
+foundry_CAPMETAL_minSpacing Minimum Capacitor Metal Space
+foundry_METAL1_minWidth Minimum Bent Metal1 Width minDiagonalWidth 0.14
+foundry_VIA1_minWidth Minimum and Maximum Via1 Width
+foundry_VIA1_minSpacing Minimum Via1 Space
+foundry_METAL2_minWidth Minimum Bent Metal2 Width minDiagonalWidth 0.16
+foundry_VIA2_minWidth Minimum and Maximum Via2 Width
+foundry_VIA2_minSpacing Minimum Via2 Space
+foundry_METAL3_minWidth Minimum Bent Metal3 Width minDiagonalWidth 0.16
+foundry_VIA3_minWidth Minimum and Maximum Via3 Width
+foundry_VIA3_minSpacing Minimum Via3 Space
+foundry_METAL4_minWidth Minimum Bent Metal4 Width minDiagonalWidth 0.16
+foundry_VIA4_minWidth Minimum and Maximum Via4 Width
+foundry_VIA4_minSpacing Minimum Via4 Space
+foundry_METAL5_minWidth Minimum Bent Metal5 Width minDiagonalWidth 0.16
+foundry_VIA5_minWidth Minimum and Maximum Via5 Width
+foundry_VIA5_minSpacing Minimum Via5 Space
+foundry_METAL6_minWidth Minimum Bent Metal6 Width minDiagonalWidth 0.16
+foundry_VIA6_minWidth Minimum and Maximum Via6 Width
+foundry_VIA6_minSpacing Minimum Via6 Space
+foundry_METAL7_minWidth Minimum Bent Metal7 Width minDiagonalWidth 0.16
+foundry_VIA7_minWidth Minimum and Maximum Via7 Width
+foundry_VIA7_minSpacing Minimum Via7 Space
+foundry_METAL8_minWidth Minimum Metal8 Width
+foundry_VIA8_minWidth Minimum and Maximum Via8 Width
+foundry_VIA8_minSpacing Minimum Via8 Space
+foundry_METAL9_minWidth Minimum Metal9 Width
+foundry_BONDPAD_minWidth Minimum Bondpad Width
+foundry_BONDPAD_minSpacing Minimum Bondpad Space
+foundry_prBoundary_NWELL_minPRBoundaryInteriorHalo prBoundary  NWELL minPRBoundaryInteriorHalo is 0.3
+foundry_NWELL_prBoundary_minPRBoundaryExtension NWELL  prBoundary minPRBoundaryExtension is 0.3
+foundry_prBoundary_OXIDE_minPRBoundaryInteriorHalo prBoundary  OXIDE minPRBoundaryInteriorHalo is 0.075
+foundry_prBoundary_PIMP_minPRBoundaryInteriorHalo prBoundary  PIMP minPRBoundaryInteriorHalo is 0.12
+foundry_PIMP_prBoundary_minPRBoundaryExtension PIMP  prBoundary minPRBoundaryExtension is 0.12
+foundry_prBoundary_NIMP_minPRBoundaryInteriorHalo prBoundary  NIMP minPRBoundaryInteriorHalo is 0.12
+foundry_NIMP_prBoundary_minPRBoundaryExtension NIMP  prBoundary minPRBoundaryExtension is 0.12
+foundry_prBoundary_POLY_minPRBoundaryInteriorHalo prBoundary  POLY minPRBoundaryInteriorHalo is 0.06
+foundry_prBoundary_CONT_minPRBoundaryInteriorHalo prBoundary  CONT minPRBoundaryInteriorHalo is 0.07
+foundry_CONT_prBoundary_minPRBoundaryExtension CONT  prBoundary minPRBoundaryExtension is 0.06
+foundry_prBoundary_METAL1_minPRBoundaryInteriorHalo prBoundary  METAL1 minPRBoundaryInteriorHalo is 0.06
+foundry_METAL1_prBoundary_minPRBoundaryExtension METAL1  prBoundary minPRBoundaryExtension is 0.18
+foundry_prBoundary_VIA1_minPRBoundaryInteriorHalo prBoundary  VIA1 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_METAL2_minPRBoundaryInteriorHalo prBoundary  METAL2 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_VIA2_minPRBoundaryInteriorHalo prBoundary  VIA2 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_METAL3_minPRBoundaryInteriorHalo prBoundary  METAL3 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_VIA3_minPRBoundaryInteriorHalo prBoundary  VIA3 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_METAL4_minPRBoundaryInteriorHalo prBoundary  METAL4 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_VIA4_minPRBoundaryInteriorHalo prBoundary  VIA4 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_METAL5_minPRBoundaryInteriorHalo prBoundary  METAL5 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_VIA5_minPRBoundaryInteriorHalo prBoundary  VIA5 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_METAL6_minPRBoundaryInteriorHalo prBoundary  METAL6 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_VIA6_minPRBoundaryInteriorHalo prBoundary  VIA6 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_METAL7_minPRBoundaryInteriorHalo prBoundary  METAL7 minPRBoundaryInteriorHalo is 0.07
+foundry_prBoundary_VIA7_minPRBoundaryInteriorHalo prBoundary  VIA7 minPRBoundaryInteriorHalo is 0.18
+foundry_prBoundary_METAL8_minPRBoundaryInteriorHalo prBoundary  METAL8 minPRBoundaryInteriorHalo is 0.1
+foundry_prBoundary_VIA8_minPRBoundaryInteriorHalo prBoundary  VIA8 minPRBoundaryInteriorHalo is 0.18
+foundry_prBoundary_METAL9_minPRBoundaryInteriorHalo prBoundary  METAL9 minPRBoundaryInteriorHalo is 0.1
+foundry_NBURIED_NWELL_minSpacing Minimum Nburied to Nwell Space
+foundry_NBURIED_OXIDE_minSpacing Minimum Nburied to Oxide Space
+foundry_NWELL_ndiff_minSpacing Minimum Nwell to N+ Active Area Space
+foundry_NWELL_pdiff_minSpacing Minimum Nwell to P+ Active Area Space
+foundry_NWELL_ndiff25_minSpacing Minimum Nwell to N+ 2.5V Active Area Space
+foundry_NWELL_pdiff25_minSpacing Minimum Nwell to P+ 2.5V Active Area Space
+foundry_ndiff_pdiff_minSpacing Minimum N+ Active Area to P+ Active Area Space
+foundry_ndiff25_pdiff25_minSpacing Minimum N+ 2.5V Active Area to P+ 2.5V Active Area Space
+foundry_OXIDE_THK_gate12_minSpacing Minimum Thick Active Area to 1.2V Poly Gate Space
+foundry_OXIDE_OXIDE_THK_minSpacing Minimum Thick Active Area to Active Area Space
+foundry_NZVT_OXIDE_minSpacing Minimum Nzvt to Active Area Space
+foundry_NZVT_NWELL_minSpacing Minimum Nzvt to Nwell Space
+foundry_POLY_OXIDE_minSpacing Minimum Poly to Active Area Space
+foundry_PIMP_NIMP_minSpacing Minimum N+ Implant to P+ Implant Space
+foundry_NIMP_ptap_minSpacing Minimum N+ Implant to P+ Substrate Tie Space
+foundry_PIMP_ntap_minSpacing Minimum P+ Implant to N+ Active Area Nwell Tie Space
+foundry_SIPROT_CONT_minSpacing Minimum Salicide Block to Contact Space
+foundry_SIPROT_OXIDE_minSpacing Minimum Salicide Block to Active Area Space
+foundry_SIPROT_gate_minSpacing Minimum Salicide Block to Gate Poly Space
+foundry_SIPROT_ipoly_minSpacing Minimum Salicide Block to Field Poly Space
+foundry_NBURIED_NWELL_minExtensionDistance Minimum Nburied Enclosure of Nwell
+foundry_NWELL_ndiff_minExtensionDistance Minimum Nwell enclosure of N+ Active Area
+foundry_NWELL_pdiff_minExtensionDistance Minimum Nwell enclosure of P+ Active Area
+foundry_NWELL_ndiff25_minExtensionDistance Minimum Nwell enclosure of N+ 2.5V Active Area
+foundry_NWELL_pdiff25_minExtensionDistance Minimum Nwell enclosure of P+ 2.5V Active Area
+foundry_OXIDE_THK_OXIDE_minExtensionDistance Minimum Thick Active Area enclosure of Active Area
+foundry_OXIDE_THK_POLY_minExtensionDistance Minimum Thick Active Area enclosure of 2.5V Poly Gate
+foundry_NZVT_OXIDE_minExtensionDistance Minimum and Maximum Nzvt enclosure of N+ Active Area
+foundry_POLY_sd_ndiff_minOverlapDistance Minimum Poly Extension beyond N+ Active Area
+foundry_POLY_sd_pdiff_minOverlapDistance Minimum Poly Extension beyond P+ Active Area
+foundry_NIMP_sd_ndiff_minExtensionDistance Minimum N+ Implant to N+ Active Area Enclosure
+foundry_NIMP_ntap_minOverlapDistance Minimum N+ Implant to Nwell Tie Active Area Enclosure
+foundry_PIMP_sd_pdiff_minExtensionDistance Minimum P+ Implant to P+ Active Area Enclosure
+foundry_PIMP_ptap_minOverlapDistance Minimum P+ Implant to Substrate Tie Active Area Enclosure
+foundry_OXIDE_CONT_minExtensionDistance Minimum Active Area to Contact Enclosure
+foundry_OXIDE_POLY_minExtensionDistance Minimum Oxide Extension beyond Gate Poly
+foundry_NIMP_sd_cont_minExtensionDistance Minimum Nimp to Active Area Contact Enclosure
+foundry_PIMP_sd_cont_minExtensionDistance Minimum Pimp to Active Area Contact Enclosure
+foundry_SIPROT_OXIDE_minExtensionDistance Minimum Salicide Block to Active Area Enclosure
+foundry_OXIDE_SIPROT_minExtensionDistance Minimum Active Area to Salicide Block Enclosure
+foundry_SIPROT_ipoly_minExtensionDistance Minimum Salicide Block to Field Poly Enclosure
+foundry_METAL1_minSpacing Minimum Bent Metal1 Space minDiagonalSpacing 0.16
+foundry_METAL1_gt_0.1805_METAL1_minSpacing_common-run_0.559 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_1.5005_METAL1_minSpacing_common-run_0 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_1.5005_METAL1_minSpacing_common-run_1.499 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_3.0005_METAL1_minSpacing_common-run_0 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_3.0005_METAL1_minSpacing_common-run_2.999 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_4.5005_METAL1_minSpacing_common-run_0 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_4.5005_METAL1_minSpacing_common-run_4.499 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_7.5005_METAL1_minSpacing_common-run_0 Minimum Metal1 Space Based on Width and Length
+foundry_METAL1_gt_7.5005_METAL1_minSpacing_common-run_7.499 Minimum Metal1 Space Based on Width and Length
+foundry_METAL2_minSpacing Minimum Bent Metal2 Space minDiagonalSpacing 0.18
+foundry_METAL2_gt_0.2005_METAL2_minSpacing_common-run_0.559 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_1.5005_METAL2_minSpacing_common-run_0 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_1.5005_METAL2_minSpacing_common-run_1.499 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_3.0005_METAL2_minSpacing_common-run_0 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_3.0005_METAL2_minSpacing_common-run_2.999 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_4.5005_METAL2_minSpacing_common-run_0 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_4.5005_METAL2_minSpacing_common-run_4.499 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_7.5005_METAL2_minSpacing_common-run_0 Minimum Metal2 Space Based on Width and Length
+foundry_METAL2_gt_7.5005_METAL2_minSpacing_common-run_7.499 Minimum Metal2 Space Based on Width and Length
+foundry_METAL3_minSpacing Minimum Bent Metal3 Space minDiagonalSpacing 0.18
+foundry_METAL3_gt_0.2005_METAL3_minSpacing_common-run_0.559 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_1.5005_METAL3_minSpacing_common-run_0 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_1.5005_METAL3_minSpacing_common-run_1.499 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_3.0005_METAL3_minSpacing_common-run_0 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_3.0005_METAL3_minSpacing_common-run_2.999 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_4.5005_METAL3_minSpacing_common-run_0 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_4.5005_METAL3_minSpacing_common-run_4.499 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_7.5005_METAL3_minSpacing_common-run_0 Minimum Metal3 Space Based on Width and Length
+foundry_METAL3_gt_7.5005_METAL3_minSpacing_common-run_7.499 Minimum Metal3 Space Based on Width and Length
+foundry_METAL4_minSpacing Minimum Bent Metal4 Space minDiagonalSpacing 0.18
+foundry_METAL4_gt_0.2005_METAL4_minSpacing_common-run_0.559 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_1.5005_METAL4_minSpacing_common-run_0 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_1.5005_METAL4_minSpacing_common-run_1.499 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_3.0005_METAL4_minSpacing_common-run_0 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_3.0005_METAL4_minSpacing_common-run_2.999 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_4.5005_METAL4_minSpacing_common-run_0 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_4.5005_METAL4_minSpacing_common-run_4.499 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_7.5005_METAL4_minSpacing_common-run_0 Minimum Metal4 Space Based on Width and Length
+foundry_METAL4_gt_7.5005_METAL4_minSpacing_common-run_7.499 Minimum Metal4 Space Based on Width and Length
+foundry_METAL5_minSpacing Minimum Bent Metal5 Space minDiagonalSpacing 0.18
+foundry_METAL5_gt_0.2005_METAL5_minSpacing_common-run_0.559 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_1.5005_METAL5_minSpacing_common-run_0 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_1.5005_METAL5_minSpacing_common-run_1.499 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_3.0005_METAL5_minSpacing_common-run_0 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_3.0005_METAL5_minSpacing_common-run_2.999 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_4.5005_METAL5_minSpacing_common-run_0 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_4.5005_METAL5_minSpacing_common-run_4.499 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_7.5005_METAL5_minSpacing_common-run_0 Minimum Metal5 Space Based on Width and Length
+foundry_METAL5_gt_7.5005_METAL5_minSpacing_common-run_7.499 Minimum Metal5 Space Based on Width and Length
+foundry_METAL6_minSpacing Minimum Bent Metal6 Space minDiagonalSpacing 0.18
+foundry_METAL6_gt_0.2005_METAL6_minSpacing_common-run_0.559 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_1.5005_METAL6_minSpacing_common-run_0 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_1.5005_METAL6_minSpacing_common-run_1.499 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_3.0005_METAL6_minSpacing_common-run_0 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_3.0005_METAL6_minSpacing_common-run_2.999 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_4.5005_METAL6_minSpacing_common-run_0 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_4.5005_METAL6_minSpacing_common-run_4.499 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_7.5005_METAL6_minSpacing_common-run_0 Minimum Metal6 Space Based on Width and Length
+foundry_METAL6_gt_7.5005_METAL6_minSpacing_common-run_7.499 Minimum Metal6 Space Based on Width and Length
+foundry_METAL7_minSpacing Minimum Bent Metal7 Space minDiagonalSpacing 0.18
+foundry_METAL7_gt_0.2005_METAL7_minSpacing_common-run_0.559 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_1.5005_METAL7_minSpacing_common-run_0 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_1.5005_METAL7_minSpacing_common-run_1.499 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_3.0005_METAL7_minSpacing_common-run_0 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_3.0005_METAL7_minSpacing_common-run_2.999 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_4.5005_METAL7_minSpacing_common-run_0 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_4.5005_METAL7_minSpacing_common-run_4.499 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_7.5005_METAL7_minSpacing_common-run_0 Minimum Metal7 Space Based on Width and Length
+foundry_METAL7_gt_7.5005_METAL7_minSpacing_common-run_7.499 Minimum Metal7 Space Based on Width and Length
+foundry_METAL8_minSpacing Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_1.5005_METAL8_minSpacing_common-run_1.499 Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_3.0005_METAL8_minSpacing_common-run_0 Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_3.0005_METAL8_minSpacing_common-run_2.999 Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_4.5005_METAL8_minSpacing_common-run_0 Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_4.5005_METAL8_minSpacing_common-run_4.499 Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_7.5005_METAL8_minSpacing_common-run_0 Minimum Metal8 Space Based on Width and Length
+foundry_METAL8_gt_7.5005_METAL8_minSpacing_common-run_7.499 Minimum Metal8 Space Based on Width and Length
+foundry_METAL9_minSpacing Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_1.5005_METAL9_minSpacing_common-run_1.499 Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_3.0005_METAL9_minSpacing_common-run_0 Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_3.0005_METAL9_minSpacing_common-run_2.999 Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_4.5005_METAL9_minSpacing_common-run_0 Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_4.5005_METAL9_minSpacing_common-run_4.499 Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_7.5005_METAL9_minSpacing_common-run_0 Minimum Metal9 Space Based on Width and Length
+foundry_METAL9_gt_7.5005_METAL9_minSpacing_common-run_7.499 Minimum Metal9 Space Based on Width and Length
+foundry_NWELL_pdiff_NBURIED_minSpacingOver Space NWELL from pdiff over NBURIED by 0.5
+foundry_NWELL_ndiff_NBURIED_minSpacingOver Space NWELL from ndiff over NBURIED by 0.4
+foundry_POLY_RESDUM_minSpacingOver Space POLY from POLY over RESDUM by 0.6
+foundry_NIMP_pdiff_NWELL_minSpacingOver Space NIMP from pdiff over NWELL by 0.16
+foundry_NIMP_gate_POLY_minTouchingDirEnclosure Enclose gate beside POLY with NIMP by 0.18
+foundry_NIMP_gate_OXIDE_minTouchingDirEnclosure Enclose gate beside OXIDE with NIMP by 0.18
+foundry_NIMP_pgate_OXIDE_minSpacingOver Space NIMP from pgate over OXIDE by 0.18
+foundry_PIMP_ngate_OXIDE_minSpacingOver Space PIMP from ngate over OXIDE by 0.18
+foundry_PIMP_gate_POLY_minTouchingDirEnclosure Enclose gate beside POLY with PIMP by 0.18
+foundry_PIMP_gate_OXIDE_minTouchingDirEnclosure Enclose gate beside OXIDE with PIMP by 0.18
+foundry_CONT_gate12_OXIDE_minSpacingOver Space CONT from gate12 over OXIDE by 0.1
+foundry_CONT_gate25_OXIDE_THK_minSpacingOver Space CONT from gate25 over OXIDE_THK by 0.12
+foundry_CONT_gate12_POLY_minSpacingOver Space CONT from gate12 over POLY by 0.12
+foundry_CONT_gate25_POLY_minSpacingOver Space CONT from gate25 over POLY by 0.14
+foundry_OXIDE_minArea Minimum Oxide Area
+foundry_OXIDE_minHoleArea Minimum Oxide Enclosed Area
+foundry_POLY_minArea Minimum Poly Area
+foundry_PIMP_minArea Minimum P+ Implant Area
+foundry_PIMP_minHoleArea Minimum P+ Implant Enclosed Area
+foundry_NIMP_minArea Minimum N+ Implant Area
+foundry_NIMP_minHoleArea Minimum N+ Implant Enclosed Area
+foundry_SIPROT_minArea Minimum Salicide Block Area
+foundry_SIPROT_minHoleArea Minimum Salicide Block Enclosed Area
+foundry_METAL1_minArea Minimum Metal1 Area
+foundry_METAL2_minArea Minimum Metal2 Area
+foundry_METAL3_minArea Minimum Metal3 Area
+foundry_METAL4_minArea Minimum Metal4 Area
+foundry_METAL5_minArea Minimum Metal5 Area
+foundry_METAL6_minArea Minimum Metal6 Area
+foundry_METAL7_minArea Minimum Metal7 Area
+foundry_METAL8_minArea Minimum Metal8 Area
+foundry_METAL9_minArea Minimum Metal9 Area
+foundry_POLY_CONT_minOppExtension Minimum Poly to Contact Enclosure manhattan 
+foundry_METAL1_CONT_minOppExtension Minimum Metal1 to Contact Enclosure manhattan 
+foundry_METAL1_VIA1_minOppExtension Minimum Metal1 to Via1 Enclosure manhattan 
+foundry_METAL2_VIA1_minOppExtension Minimum Metal2 to Via1 Enclosure manhattan 
+foundry_METAL2_VIA2_minOppExtension Minimum Metal2 to Via2 Enclosure manhattan 
+foundry_METAL3_VIA2_minOppExtension Minimum Metal3 to Via2 Enclosure manhattan 
+foundry_METAL3_VIA3_minOppExtension Minimum Metal3 to Via3 Enclosure manhattan 
+foundry_METAL4_VIA3_minOppExtension Minimum Metal4 to Via3 Enclosure manhattan 
+foundry_METAL4_VIA4_minOppExtension Minimum Metal4 to Via4 Enclosure manhattan 
+foundry_METAL5_VIA4_minOppExtension Minimum Metal5 to Via4 Enclosure manhattan 
+foundry_METAL5_VIA5_minOppExtension Minimum Metal5 to Via5 Enclosure manhattan 
+foundry_METAL6_VIA5_minOppExtension Minimum Metal6 to Via5 Enclosure manhattan 
+foundry_METAL6_VIA6_minOppExtension Minimum Metal6 to Via6 Enclosure manhattan 
+foundry_METAL7_VIA6_minOppExtension Minimum Metal7 to Via6 Enclosure manhattan 
+foundry_METAL7_VIA7_minOppExtension Minimum Metal7 to Via7 Enclosure manhattan 
+foundry_METAL8_VIA7_minOppExtension Minimum Metal8 to Via7 Enclosure manhattan 
+foundry_METAL8_VIA8_minOppExtension Minimum Metal8 to Via8 Enclosure manhattan 
+foundry_METAL9_VIA8_minOppExtension Minimum Metal9 to Via8 Enclosure manhattan 
+foundry_POLY_gt_0.12_AND_CONT_minNumCut POLY_gt_0.12_AND_CONT minNumCut is 1
+foundry_POLY_POLY_gt_0.12_AND_CONT_minEnclosure POLY  POLY_gt_0.12_AND_CONT minEnclosure is 0
+foundry_METAL1_gt_0.12_AND_CONT_minNumCut METAL1_gt_0.12_AND_CONT minNumCut is 1
+foundry_METAL1_METAL1_gt_0.12_AND_CONT_minEnclosure METAL1  METAL1_gt_0.12_AND_CONT minEnclosure is 0
+foundry_POLY_gt_0.4_AND_CONT_minNumCut POLY_gt_0.4_AND_CONT minNumCut is 2
+foundry_POLY_POLY_gt_0.4_AND_CONT_minEnclosure POLY  POLY_gt_0.4_AND_CONT minEnclosure is 0
+foundry_METAL1_gt_0.4_AND_CONT_minNumCut METAL1_gt_0.4_AND_CONT minNumCut is 2
+foundry_METAL1_METAL1_gt_0.4_AND_CONT_minEnclosure METAL1  METAL1_gt_0.4_AND_CONT minEnclosure is 0
+foundry_POLY_gt_1_AND_CONT_minNumCut POLY_gt_1_AND_CONT minNumCut is 2
+foundry_POLY_POLY_gt_1_AND_CONT_minEnclosure POLY  POLY_gt_1_AND_CONT minEnclosure is 0
+foundry_METAL1_gt_1_AND_CONT_minNumCut METAL1_gt_1_AND_CONT minNumCut is 2
+foundry_METAL1_METAL1_gt_1_AND_CONT_minEnclosure METAL1  METAL1_gt_1_AND_CONT minEnclosure is 0
+foundry_OXIDE_gt_0.12_AND_CONT_minNumCut OXIDE_gt_0.12_AND_CONT minNumCut is 1
+foundry_OXIDE_OXIDE_gt_0.12_AND_CONT_minEnclosure OXIDE  OXIDE_gt_0.12_AND_CONT minEnclosure is 0
+foundry_OXIDE_gt_0.4_AND_CONT_minNumCut OXIDE_gt_0.4_AND_CONT minNumCut is 2
+foundry_OXIDE_OXIDE_gt_0.4_AND_CONT_minEnclosure OXIDE  OXIDE_gt_0.4_AND_CONT minEnclosure is 0
+foundry_OXIDE_gt_1_AND_CONT_minNumCut OXIDE_gt_1_AND_CONT minNumCut is 2
+foundry_OXIDE_OXIDE_gt_1_AND_CONT_minEnclosure OXIDE  OXIDE_gt_1_AND_CONT minEnclosure is 0
+foundry_METAL1_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_METAL1_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_gt_0.14_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_METAL1_gt_0.14_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_gt_0.14_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_gt_0.14_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_gt_0.4_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_METAL1_gt_0.4_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_gt_0.4_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_gt_0.4_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_gt_1_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL1_METAL1_gt_1_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_gt_1_AND_VIA1_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_gt_1_AND_VIA1_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_gt_0.14_AND_VIA2_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_gt_0.14_AND_VIA2_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_gt_0.14_AND_VIA2_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_METAL3_gt_0.14_AND_VIA2_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_gt_0.4_AND_VIA2_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_gt_0.4_AND_VIA2_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_gt_0.4_AND_VIA2_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_METAL3_gt_0.4_AND_VIA2_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_gt_1_AND_VIA2_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL2_METAL2_gt_1_AND_VIA2_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_gt_1_AND_VIA2_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_METAL3_gt_1_AND_VIA2_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_gt_0.14_AND_VIA3_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_METAL3_gt_0.14_AND_VIA3_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_gt_0.14_AND_VIA3_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_METAL4_gt_0.14_AND_VIA3_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_gt_0.4_AND_VIA3_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_METAL3_gt_0.4_AND_VIA3_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_gt_0.4_AND_VIA3_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_METAL4_gt_0.4_AND_VIA3_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_gt_1_AND_VIA3_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL3_METAL3_gt_1_AND_VIA3_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_gt_1_AND_VIA3_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_METAL4_gt_1_AND_VIA3_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_gt_0.14_AND_VIA4_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_METAL4_gt_0.14_AND_VIA4_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_gt_0.14_AND_VIA4_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_METAL5_gt_0.14_AND_VIA4_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_gt_0.4_AND_VIA4_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_METAL4_gt_0.4_AND_VIA4_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_gt_0.4_AND_VIA4_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_METAL5_gt_0.4_AND_VIA4_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_gt_1_AND_VIA4_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL4_METAL4_gt_1_AND_VIA4_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_gt_1_AND_VIA4_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_METAL5_gt_1_AND_VIA4_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_gt_0.14_AND_VIA5_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_METAL5_gt_0.14_AND_VIA5_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_gt_0.14_AND_VIA5_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_METAL6_gt_0.14_AND_VIA5_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_gt_0.4_AND_VIA5_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_METAL5_gt_0.4_AND_VIA5_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_gt_0.4_AND_VIA5_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_METAL6_gt_0.4_AND_VIA5_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_gt_1_AND_VIA5_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL5_METAL5_gt_1_AND_VIA5_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_gt_1_AND_VIA5_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_METAL6_gt_1_AND_VIA5_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_gt_0.14_AND_VIA6_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_METAL6_gt_0.14_AND_VIA6_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL7_gt_0.14_AND_VIA6_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL7_METAL7_gt_0.14_AND_VIA6_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_gt_1.6_AND_VIA6_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_METAL6_gt_1.6_AND_VIA6_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL7_gt_1.6_AND_VIA6_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL7_METAL7_gt_1.6_AND_VIA6_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_gt_4_AND_VIA6_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL6_METAL6_gt_4_AND_VIA6_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL7_gt_4_AND_VIA6_minNumCut Min 2 via for >0.4um or 4 via for >1um width
+foundry_METAL7_METAL7_gt_4_AND_VIA6_minEnclosure Min 2 via for >0.4um or 4 via for >1um width
+DFM_POLY_OXIDE_minOverlapDistance POLY  OXIDE minOverlapDistance is 0.2
+DFM_CONT_gate12_OXIDE_minSpacingOver Space CONT from gate12 over OXIDE by 0.12
+DFM_CONT_gate25_OXIDE_THK_minSpacingOver Space CONT from gate25 over OXIDE_THK by 0.14
+DFM_CONT_gate12_POLY_minSpacingOver Space CONT from gate12 over POLY by 0.14
+DFM_CONT_gate25_POLY_minSpacingOver Space CONT from gate25 over POLY by 0.16
+DFM_POLY_OXIDE_minSpacingOver Space POLY from POLY over OXIDE by 0.14
+LEFDefaultRouteSpec_gpdk090_CONT_minWidth CONT minWidth is 0.12
+LEFDefaultRouteSpec_gpdk090_METAL1_minWidth METAL1 minWidth is 0.12
+LEFDefaultRouteSpec_gpdk090_VIA1_minWidth VIA1 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_METAL2_minWidth METAL2 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_VIA2_minWidth VIA2 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_METAL3_minWidth METAL3 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_VIA3_minWidth VIA3 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_METAL4_minWidth METAL4 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_VIA4_minWidth VIA4 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_METAL5_minWidth METAL5 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_VIA5_minWidth VIA5 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_METAL6_minWidth METAL6 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_VIA6_minWidth VIA6 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_METAL7_minWidth METAL7 minWidth is 0.14
+LEFDefaultRouteSpec_gpdk090_VIA7_minWidth VIA7 minWidth is 0.36
+LEFDefaultRouteSpec_gpdk090_METAL8_minWidth METAL8 minWidth is 0.44
+LEFDefaultRouteSpec_gpdk090_VIA8_minWidth VIA8 minWidth is 0.36
+LEFDefaultRouteSpec_gpdk090_METAL9_minWidth METAL9 minWidth is 0.44

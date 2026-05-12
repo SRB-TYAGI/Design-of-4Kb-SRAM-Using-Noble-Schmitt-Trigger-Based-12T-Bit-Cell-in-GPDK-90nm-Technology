@@ -1,0 +1,13 @@
+
+***** Begin Label Report *****
+
+ Label in cell 'And layout Decoder':
+  info: Assign pin label "c" at (0.0600, 1.4700) to layer `Metal1_p'.
+  info: Assign pin label "b" at (0.0600, 1.7400) to layer `Metal1_p'.
+  info: Assign pin label "gnd" at (1.9800, 0.0600) to layer `Metal1_p'.
+  info: Assign pin label "a" at (0.0600, 2.0300) to layer `Metal1_p'.
+  info: Assign pin label "Vout" at (2.7500, 1.8000) to layer `Metal1_p'.
+  info: Assign pin label "Vdd" at (2.0100, 3.5500) to layer `Metal1_p'.
+
+***** End of Label Report *****
+

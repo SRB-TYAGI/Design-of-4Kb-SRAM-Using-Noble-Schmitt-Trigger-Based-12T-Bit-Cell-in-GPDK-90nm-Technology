@@ -1,0 +1,9 @@
+// The OptArea Function Definitions
+function _OPTAREA_ = SUBSTRATE
+function _optAreaTemp = _OPTAREA_ & ~ Y0_DRAWING
+create_elements nohier And Y0_DRAWING _optAreaTemp
+
+// The OptArea Freeze Commands
+freeze * area Y0_DRAWING
+freeze * layers NWELL_DRAWING OXIDE_DRAWING POLY_DRAWING PIMP_DRAWING NIMP_DRAWING METAL1_DRAWING VIA1_DRAWING METAL2_DRAWING PWDUMMY_DRAWING
+

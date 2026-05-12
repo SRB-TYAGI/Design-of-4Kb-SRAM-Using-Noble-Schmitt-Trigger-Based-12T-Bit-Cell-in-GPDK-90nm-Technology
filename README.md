@@ -75,6 +75,7 @@ The architecture improves:
 The architecture improves SRAM performance by increasing stability and reducing noise sensitivity during read and write operations.
 
 ---
+
 # 🔷 Schematic Representation of Proposed 12T SRAM Cell
 
 The schematic of the proposed **12T SRAM Cell** was designed and simulated using **Cadence Virtuoso** in **GPDK 90nm Technology**. The design incorporates a **Schmitt Trigger-Based Feedback Structure** with **separate read and write paths** to improve SRAM stability and reliability.
@@ -347,20 +348,15 @@ Leakage power mainly occurs due to:
 
 
 
-
-
-
 # 📊 Simulations Performed
 
 ## ✅ Write Operation
 - Verified successful data overwrite
 - Evaluated **Write Static Noise Margin (WSNM)**
 
-- 
 ## ✅ Hold Operation
 - Verified stable data retention
 - Evaluated **Hold Static Noise Margin (HSNM)**
-
 
 
 ## ✅ Read Operation
@@ -522,6 +518,7 @@ The difference between these two threshold voltages forms the hysteresis window:
 
 ```math
 \Delta V_H = V_{TH+} - V_{TH-}
+
 ```
 
 This hysteresis behavior:
@@ -572,7 +569,7 @@ The Schmitt Trigger feedback mechanism improves SRAM performance by:
   <b>Fig. Schmitt Trigger Concept and Benefits in Proposed 12T SRAM Cell</b>
 </p>
 
-
+---
 
 # 🚀 4Kb SRAM Architecture Using Proposed 12T SRAM Cell
 

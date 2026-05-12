@@ -503,7 +503,314 @@ RC Extraction was performed to extract parasitic resistance and capacitance from
 └── Images/
 ```
 
+
+# 🔷 Schmitt Trigger Concept in Proposed 12T SRAM Cell
+
+The **Schmitt Trigger** is a regenerative comparator circuit that introduces **hysteresis** by using two different switching threshold voltages for rising and falling input signals. This hysteresis behavior improves the noise immunity and stability of the SRAM cell.
+
+In the proposed **12T SRAM Architecture**, Schmitt Trigger feedback transistors are incorporated to strengthen the storage nodes and reduce the probability of unintended switching during read and hold operations.
+
 ---
+
+# 📌 Hysteresis Concept
+
+The Schmitt Trigger operates with:
+- **Upper Threshold Voltage (\(V_{TH+}\))**
+- **Lower Threshold Voltage (\(V_{TH-}\))**
+
+The difference between these two threshold voltages forms the hysteresis window:
+
+```math
+\Delta V_H = V_{TH+} - V_{TH-}
+```
+
+This hysteresis behavior:
+- Filters noise and glitches
+- Prevents unwanted switching
+- Improves logic stability
+- Enhances SRAM robustness
+
+---
+
+# 📌 Role of Schmitt Trigger in SRAM
+
+The Schmitt Trigger feedback mechanism improves SRAM performance by:
+- Increasing **Read Static Noise Margin (RSNM)**
+- Improving **Hold Static Noise Margin (HSNM)**
+- Enhancing **Write Static Noise Margin (WSNM)**
+- Reducing read disturb issues
+- Improving tolerance against Process, Voltage, and Temperature (PVT) variations
+
+---
+
+# 📌 Advantages of Schmitt Trigger-Based SRAM
+
+- Improved Noise Immunity
+- Better Read Stability
+- Reliable Data Retention
+- Enhanced Low-Voltage Operation
+- Reduced Probability of Bit Flipping
+- Higher Stability under Process Variations
+
+---
+
+# 📊 Achieved Noise Margin Results
+
+| Parameter | Value |
+|---|---|
+| **RSNM** | **309.1 mV** |
+| **HSNM** | **430.8 mV** |
+| **WSNM** | **664.6 mV** |
+
+---
+
+<p align="center">
+  <img src="Images/Hysteresis Concept.png" alt="Schmitt Trigger Concept and SRAM Benefits" width="1000"/>
+</p>
+
+<p align="center">
+  <b>Fig. Schmitt Trigger Concept and Benefits in Proposed 12T SRAM Cell</b>
+</p>
+
+
+
+# 🚀 4Kb SRAM Architecture Using Proposed 12T SRAM Cell
+
+After successful design and verification of the proposed **12T SRAM Cell**, a complete **4Kb SRAM Memory Architecture** was implemented using the designed SRAM bit cell in **Cadence Virtuoso** using **GPDK 90nm Technology**.
+
+The 4Kb SRAM was developed by arranging multiple 12T SRAM cells in an array structure along with decoder circuitry, wordline control, bitline architecture, and peripheral circuitry.
+
+---
+
+# 📌 4Kb SRAM Organization
+
+The total memory size of the SRAM is:
+
+```math
+4Kb = 4096 \ bits
+```
+
+The memory array was organized as:
+
+```math
+512 \times 8
+```
+
+Where:
+- **512 Rows**
+- **8 Columns**
+- Total Bits = \(512 \times 8 = 4096\) bits
+
+---
+
+# 🧠 Architecture of 4Kb SRAM
+
+The proposed 4Kb SRAM architecture consists of:
+- **12T SRAM Bit Cell Array**
+- **9:512 Row Decoder**
+- **Wordline Drivers**
+- **Bitline and Read Bitline Structure**
+- **Read/Write Control Circuitry**
+- **Peripheral Circuits**
+
+### 📌 Key Features
+- High Stability SRAM Architecture
+- Separate Read and Write Paths
+- Improved Noise Immunity
+- Reliable Read/Write Operations
+- Low Power Consumption
+- Enhanced Process Variation Tolerance
+
+<p align="center">
+  <img src="Images/Schematic Architecture of 4kb.png" alt="4Kb SRAM Architecture" width="950"/>
+</p>
+
+<p align="center">
+  <b>Fig. Architecture of Proposed 4Kb SRAM Using 12T SRAM Cell</b>
+</p>
+
+---
+
+# 🔷 9:512 Decoder Design
+
+A **9:512 Decoder** was designed to select one wordline among 512 rows in the SRAM array.
+
+### 📌 Decoder Features
+- 9 Input Address Lines
+- 512 Wordline Outputs
+- Row Selection Mechanism
+- Optimized Decoder Structure
+
+The decoder activates only one wordline at a time based on the applied address input.
+
+<p align="center">
+  <img src="Images/Decorder.png" alt="9:512 Decoder Design" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. 9:512 Decoder Design for 4Kb SRAM</b>
+</p>
+
+---
+
+# 🔷 SRAM Array Implementation
+
+The SRAM array was created by arranging multiple 12T SRAM cells in matrix form to achieve the required memory capacity.
+
+### 📌 Array Features
+- Matrix-Based Cell Placement
+- Optimized Wordline Routing
+- Differential Bitline Structure
+- Compact Layout Organization
+
+<p align="center">
+  <img src="Images/SRAM Array Implementation.png" alt="4Kb SRAM Array" width="950"/>
+</p>
+
+<p align="center">
+  <b>Fig. 4Kb SRAM Array Using Proposed 12T SRAM Cells</b>
+</p>
+
+---
+
+# 📊 Functional Verification of 4Kb SRAM
+
+Functional simulations were performed to verify:
+- Correct Address Decoding
+- Read Operation
+- Write Operation
+- Stable Data Retention
+- Proper Wordline Activation
+
+---
+
+# 🔷 Precharge Circuit for Proposed 4Kb SRAM
+
+A precharge circuit was designed and integrated into the proposed **4Kb SRAM Architecture** to initialize the bitlines before every read operation. The precharge circuit equalizes and charges the bitlines to the supply voltage level, ensuring reliable and faster read functionality.
+
+The precharge operation is controlled using a dedicated **Precharge Control Signal**.
+
+---
+
+# 📌 Functions of Precharge Circuit
+
+- Charges bitlines to **VDD**
+- Equalizes differential bitlines
+- Improves read speed
+- Reduces sensing delay
+- Enhances read stability
+- Minimizes read errors
+
+---
+
+# 📌 Precharge Circuit Features
+
+- Dedicated precharge control signal
+- Simultaneous charging of all bitlines
+- Supports differential bitline architecture
+- Improves SRAM read reliability
+- Optimized for low-power SRAM operation
+
+---
+
+# 📌 Working Principle
+
+During the precharge phase:
+- The **Precharge Signal** is activated
+- All bitlines are charged to **VDD**
+- Differential bitlines are equalized
+
+During the read/write operation:
+- The precharge signal is disabled
+- Bitlines are released for SRAM access operations
+
+---
+
+# 📌 Advantages of Precharge Circuit
+
+- Faster Read Operation
+- Reduced Bitline Delay
+- Improved Sense Amplifier Performance
+- Better Noise Immunity
+- Enhanced SRAM Stability
+
+<p align="center">
+  <img src="Images/Precharge Circuit.png" alt="Precharge Circuit for Proposed 4Kb SRAM" width="950"/>
+</p>
+
+<p align="center">
+  <b>Fig. Precharge Circuit for Proposed 4Kb SRAM Architecture</b>
+</p>
+
+
+
+
+# 🔷 Sense Amplifier and Read Output Buffer
+
+The proposed **4Kb SRAM Architecture** incorporates a **Sense Amplifier** and **Read Output Buffer** to improve the speed, reliability, and accuracy of the read operation.
+
+The sense amplifier detects small voltage differences developed on the differential bitlines during the read operation and converts them into full logic-level signals. The read output buffer then strengthens the sensed data and provides stable output signals.
+
+---
+
+# 📌 Sense Amplifier
+
+The sense amplifier is used to amplify the small differential voltage generated between the bitlines during the SRAM read operation.
+
+### 📌 Functions of Sense Amplifier
+- Detects small voltage differences on bitlines
+- Amplifies weak read signals
+- Converts differential signals into digital outputs
+- Improves read speed and sensitivity
+
+### 📌 Features of Sense Amplifier
+- High-Speed Read Operation
+- Differential Bitline Sensing
+- Improved Read Accuracy
+- Reduced Read Delay
+- Enhanced Noise Immunity
+
+### 📌 Working Principle
+- Bitlines are precharged before read operation
+- During read access, a small voltage difference develops
+- The sense amplifier detects and amplifies this difference
+- Logic output is generated at the amplifier output nodes
+
+---
+
+# 📌 Read Output Buffer
+
+The read output buffer is connected after the sense amplifier to drive the final SRAM outputs with improved signal strength and stability.
+
+### 📌 Functions of Read Output Buffer
+- Strengthens sensed output signals
+- Provides stable logic outputs
+- Drives external load capacitance
+- Improves output reliability
+
+### 📌 Features of Read Output Buffer
+- Fast Output Response
+- Stable Digital Output
+- Improved Driving Capability
+- Reduced Signal Distortion
+
+---
+
+# 📌 Advantages of Sense Amplifier and Output Buffer
+
+- Faster Read Access Time
+- Improved Read Reliability
+- Enhanced Noise Immunity
+- Stable Output Voltage Levels
+- Reduced Read Delay
+
+<p align="center">
+  <img src="Images/Sense Amplifier and Read Output Buffer.png" alt="Sense Amplifier and Read Output Buffer" width="950"/>
+</p>
+
+<p align="center">
+  <b>Fig. Sense Amplifier and Read Output Buffer for Proposed 4Kb SRAM</b>
+</p>
 
 # 📷 Project Includes
 
@@ -516,6 +823,68 @@ RC Extraction was performed to extract parasitic resistance and capacitance from
 - RC Extraction Results
 
 ---
+
+
+
+# 🧩 Layout Implementation of Proposed 4Kb SRAM
+
+The complete layout of the proposed **4Kb SRAM** was implemented in **Cadence Virtuoso** using **GPDK 90nm Technology**. The layout was generated by arranging multiple **12T SRAM Cells** in matrix form along with peripheral circuits such as:
+- Decoder
+- Precharge Circuit
+- Sense Amplifier
+- Read Output Buffer
+- Wordline and Bitline Routing
+
+The SRAM array was organized in a compact structure to optimize:
+- Area utilization
+- Routing efficiency
+- Read/Write performance
+- Power consumption
+
+---
+
+# 📌 Features of the Layout
+
+- Matrix-Based SRAM Cell Arrangement
+- Optimized Wordline and Bitline Routing
+- Compact Layout Structure
+- Differential Bitline Architecture
+- Separate Read and Write Paths
+- Improved Stability and Noise Immunity
+
+---
+
+# 📌 Physical Verification Performed
+
+### ✅ DRC (Design Rule Check)
+- No DRC violations found
+- Layout satisfies all GPDK 90nm design rules
+
+### ✅ LVS (Layout Versus Schematic)
+- Layout successfully matched with schematic
+- All device connections verified successfully
+
+### ✅ RC Extraction
+- Parasitic resistance and capacitance extracted
+- Post-layout effects analyzed successfully
+
+---
+
+# 📌 Advantages of Proposed Layout
+
+- Compact Memory Architecture
+- Reliable SRAM Operation
+- Improved Routing Organization
+- Better Read/Write Stability
+- Enhanced Low-Power Performance
+
+<p align="center">
+  <img src="Images/SRAM_4kb_Layout.png" alt="Layout of Proposed 4Kb SRAM" width="1000"/>
+</p>
+
+<p align="center">
+  <b>Fig. Layout Implementation of Proposed 4Kb SRAM Using 12T SRAM Cells</b>
+</p>
 
 # 🎯 Applications
 

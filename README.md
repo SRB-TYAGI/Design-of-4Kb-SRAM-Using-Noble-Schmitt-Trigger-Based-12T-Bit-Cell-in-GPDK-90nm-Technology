@@ -50,7 +50,7 @@ The complete design was implemented and verified using **Cadence Virtuoso** in *
 
 
 <p align="center">
-  <img src="Images/SRAM Architecture.png" alt="12T SRAM Architecture" width="700"/>
+  <img src="Images/SRAM Architecture.png" alt="12T SRAM Architecture" width="500"/>
 </p>
 
 <p align="center">
@@ -83,7 +83,7 @@ The schematic of the proposed **12T SRAM Cell** was designed and simulated using
 
 
 <p align="center">
-  <img src="Images/Schematic representatio of  Proposed 12T SRAM cell..png" alt="12T SRAM Schematic in Cadence Virtuoso" width="850"/>
+  <img src="Images/Schematic representatio of  Proposed 12T SRAM cell..png" alt="12T SRAM Schematic in Cadence Virtuoso" width="500"/>
 </p>
 
 <p align="center">
@@ -93,7 +93,10 @@ The schematic of the proposed **12T SRAM Cell** was designed and simulated using
 
 The symbolic representation of the proposed **12T SRAM Cell** was created in **Cadence Virtuoso** to simplify hierarchical design integration and simulation. The symbol includes all essential input, output, control, and power pins required for SRAM operations.
 
-### 📌 Features of the Symbol
+
+---
+
+# 📌 Features of the Symbol
 - **Compact and Modular Design**
 - **Easy Hierarchical Integration**
 - **Separate Read and Write Control Signals**
@@ -119,6 +122,7 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
   <b>Fig:-3. Symbolic Representation of Proposed 12T SRAM Cell</b>
 </p>
 
+---
 
 # 🔷 Pre-Layout Simulation of Proposed 12T SRAM Cell
 
@@ -147,12 +151,14 @@ The simulation setup includes:
 - Proper Read Bitline Response
 
 <p align="center">
-  <img src="Images/Pre-Layout Simulation of Proposed 12T SRAM Cell.png" alt="Pre-Layout Simulation of Proposed 12T SRAM Cell" width="900"/>
+  <img src="Images/Pre-Layout Simulation of Proposed 12T SRAM Cell.png" alt="Pre-Layout Simulation of Proposed 12T SRAM Cell" width="500"/>
 </p>
 
 <p align="center">
   <b>Fig:-4. Pre-Layout Simulation Setup of Proposed 12T SRAM Cell</b>
 </p>
+
+---
 
 # 🔷 Transient Analysis
 
@@ -178,13 +184,14 @@ The simulation demonstrates the switching characteristics of:
 - Reliable transient response
 
 <p align="center">
-  <img src="Images/Transient Analysis.png" alt="Transient Analysis of Proposed 12T SRAM Cell" width="950"/>
+  <img src="Images/Transient Analysis.png" alt="Transient Analysis of Proposed 12T SRAM Cell" width="500"/>
 </p>
 
 <p align="center">
-  <b>Fig. Transient Analysis of Proposed 12T SRAM Cell</b>
+  <b>Fig:-5. Transient Analysis of Proposed 12T SRAM Cell</b>
 </p>
 
+---
 
 # 🔷 DC Simulation for Butterfly Curve and SNM Evaluation
 
@@ -209,12 +216,14 @@ The butterfly curve was obtained by plotting the voltage transfer characteristic
 - Enhanced reliability under process variations
 
 <p align="center">
-  <img src="Images/DC Simulation.png" alt="DC Simulation Butterfly Curve" width="850"/>
+  <img src="Images/DC Simulation.png" alt="DC Simulation Butterfly Curve" width="500"/>
 </p>
 
 <p align="center">
-  <b>Fig. DC Simulation for Butterfly Curve and SNM Evaluation of Proposed 12T SRAM Cell</b>
+  <b>Fig:-6. DC Simulation for Butterfly Curve and SNM Evaluation of Proposed 12T SRAM Cell</b>
 </p>
+
+---
 
 # 🔷 Monte Carlo Analysis of Proposed 12T SRAM Cell
 
@@ -233,7 +242,7 @@ Monte Carlo simulations were carried out for:
 
 The obtained results demonstrate improved SRAM stability and tolerance against manufacturing variations.
 
----
+
 
 # 🔷 WSNM Monte Carlo Curve of 12T SRAM Cell
 
@@ -249,7 +258,7 @@ The Monte Carlo analysis for **Write Static Noise Margin (WSNM)** was performed 
 </p>
 
 <p align="center">
-  <b>Fig. WSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
+  <b>Fig:-7. WSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -268,7 +277,7 @@ The Monte Carlo analysis for **Hold Static Noise Margin (HSNM)** was performed t
 </p>
 
 <p align="center">
-  <b>Fig. HSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
+  <b>Fig:-8. HSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -287,7 +296,7 @@ The Monte Carlo analysis for **Read Static Noise Margin (RSNM)** was performed t
 </p>
 
 <p align="center">
-  <b>Fig. RSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
+  <b>Fig:-9. RSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
 </p>
 
 # 🔷 Dynamic Power Analysis of Proposed 12T SRAM Cell
@@ -314,7 +323,7 @@ The dynamic power consumption is mainly caused by:
 </p>
 
 <p align="center">
-  <b>Fig. Monte Carlo Curve of Dynamic Power of Proposed 12T SRAM Cell</b>
+  <b>Fig:-10. Monte Carlo Curve of Dynamic Power of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -343,7 +352,7 @@ Leakage power mainly occurs due to:
 </p>
 
 <p align="center">
-  <b>Fig. Monte Carlo Curve of Leakage Power of Proposed 12T SRAM Cell</b>
+  <b>Fig:-11. Monte Carlo Curve of Leakage Power of Proposed 12T SRAM Cell</b>
 </p>
 
 
@@ -414,7 +423,7 @@ The layout of the proposed **12T SRAM Cell** was designed using custom VLSI layo
 </p>
 
 <p align="center">
-  <b>Fig. Layout Design of Proposed 12T SRAM Cell</b>
+  <b>Fig:-12. Layout Design of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -433,7 +442,7 @@ Design Rule Check (**DRC**) was performed to verify that the layout follows all 
 </p>
 
 <p align="center">
-  <b>Fig. DRC Verification Result of Proposed 12T SRAM Cell</b>
+  <b>Fig:-13. DRC Verification Result of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -452,7 +461,7 @@ Layout Versus Schematic (**LVS**) verification was performed to ensure that the 
 </p>
 
 <p align="center">
-  <b>Fig. LVS Verification Result of Proposed 12T SRAM Cell</b>
+  <b>Fig:-14. LVS Verification Result of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -462,7 +471,7 @@ Layout Versus Schematic (**LVS**) verification was performed to ensure that the 
 </p>
 
 <p align="center">
-  <b>Fig. LVS Verification Result of Proposed 12T SRAM Cell</b>
+  <b>Fig:-15. LVS Verification Result of Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -482,7 +491,7 @@ RC Extraction was performed to extract parasitic resistance and capacitance from
 </p>
 
 <p align="center">
-  <b>Fig. RC Extraction Result of Proposed 12T SRAM Cell</b>
+  <b>Fig:-16. RC Extraction Result of Proposed 12T SRAM Cell</b>
 </p>
 
 # 📂 Repository Structure
@@ -566,7 +575,7 @@ The Schmitt Trigger feedback mechanism improves SRAM performance by:
 </p>
 
 <p align="center">
-  <b>Fig. Schmitt Trigger Concept and Benefits in Proposed 12T SRAM Cell</b>
+  <b>Fig:-17. Schmitt Trigger Concept and Benefits in Proposed 12T SRAM Cell</b>
 </p>
 
 ---
@@ -623,7 +632,7 @@ The proposed 4Kb SRAM architecture consists of:
 </p>
 
 <p align="center">
-  <b>Fig. Architecture of Proposed 4Kb SRAM Using 12T SRAM Cell</b>
+  <b>Fig:-18. Architecture of Proposed 4Kb SRAM Using 12T SRAM Cell</b>
 </p>
 
 ---
@@ -645,7 +654,7 @@ The decoder activates only one wordline at a time based on the applied address i
 </p>
 
 <p align="center">
-  <b>Fig. 9:512 Decoder Design for 4Kb SRAM</b>
+  <b>Fig:-19. 9:512 Decoder Design for 4Kb SRAM</b>
 </p>
 
 ---
@@ -665,7 +674,7 @@ The SRAM array was created by arranging multiple 12T SRAM cells in matrix form t
 </p>
 
 <p align="center">
-  <b>Fig. 4Kb SRAM Array Using Proposed 12T SRAM Cells</b>
+  <b>Fig:-20. 4Kb SRAM Array Using Proposed 12T SRAM Cells</b>
 </p>
 
 ---
@@ -736,7 +745,7 @@ During the read/write operation:
 </p>
 
 <p align="center">
-  <b>Fig. Precharge Circuit for Proposed 4Kb SRAM Architecture</b>
+  <b>Fig:-21. Precharge Circuit for Proposed 4Kb SRAM Architecture</b>
 </p>
 
 
@@ -806,7 +815,7 @@ The read output buffer is connected after the sense amplifier to drive the final
 </p>
 
 <p align="center">
-  <b>Fig. Sense Amplifier and Read Output Buffer for Proposed 4Kb SRAM</b>
+  <b>Fig:-22. Sense Amplifier and Read Output Buffer for Proposed 4Kb SRAM</b>
 </p>
 
 # 📷 Project Includes
@@ -880,7 +889,7 @@ The SRAM array was organized in a compact structure to optimize:
 </p>
 
 <p align="center">
-  <b>Fig. Layout Implementation of Proposed 4Kb SRAM Using 12T SRAM Cells</b>
+  <b>Fig:-23. Layout Implementation of Proposed 4Kb SRAM Using 12T SRAM Cells</b>
 </p>
 
 # 🎯 Applications

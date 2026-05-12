@@ -48,8 +48,13 @@ The complete design was implemented and verified using **Cadence Virtuoso** in *
 
 # 🧠 SRAM Architecture
 
+
 <p align="center">
-  <img src="Images/SRAM Architecture.png" width="600"/>
+  <img src="Images/SRAM Architecture.png" alt="12T SRAM Architecture" width="700"/>
+</p>
+
+<p align="center">
+  <b>Fig:-1. Proposed 12T SRAM Cell Architecture</b>
 </p>
 
 The proposed **12T SRAM Architecture** consists of:
@@ -81,7 +86,7 @@ The schematic of the proposed **12T SRAM Cell** was designed and simulated using
 </p>
 
 <p align="center">
-  <b>Fig. Schematic Representation of Proposed 12T SRAM Cell in Cadence Virtuoso</b>
+  <b>Fig:-2. Schematic Representation of Proposed 12T SRAM Cell in Cadence Virtuoso</b>
 </p>
 # 🔷 Symbolic Representation of Proposed 12T SRAM Cell
 
@@ -110,19 +115,253 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
 </p>
 
 <p align="center">
-  <b>Fig. Symbolic Representation of Proposed 12T SRAM Cell</b>
+  <b>Fig:-3. Symbolic Representation of Proposed 12T SRAM Cell</b>
 </p>
+
+
+# 🔷 Pre-Layout Simulation of Proposed 12T SRAM Cell
+
+The pre-layout simulation of the proposed **12T SRAM Cell** was performed in **Cadence Virtuoso** using **GPDK 90nm Technology** to verify the functional correctness of the SRAM architecture before physical layout implementation.
+
+The simulation setup includes:
+- **Power Supply Connections (VDD/GND)**
+- **Control Signal Inputs**
+- **Differential Write Bitlines (BL / BLB)**
+- **Read Word Line (RWL)**
+- **Read Bitline (RBL)**
+- **Storage Node Outputs (Q / QB)**
+
+### 📌 Objectives of Pre-Layout Simulation
+- Verify SRAM functional operation
+- Analyze Read, Write, and Hold operations
+- Validate switching behavior of Q and QB
+- Evaluate SRAM stability before layout generation
+- Ensure proper operation of control and read/write paths
+
+### 📌 Features Verified
+- Correct Read Operation
+- Successful Write Operation
+- Stable Hold Condition
+- Differential Bitline Functionality
+- Proper Read Bitline Response
+
+<p align="center">
+  <img src="Images/Pre-Layout Simulation of Proposed 12T SRAM Cell.png" alt="Pre-Layout Simulation of Proposed 12T SRAM Cell" width="900"/>
+</p>
+
+<p align="center">
+  <b>Fig:-4. Pre-Layout Simulation Setup of Proposed 12T SRAM Cell</b>
+</p>
+
+# 🔷 Transient Analysis
+
+Transient analysis of the proposed **12T SRAM Cell** was performed in **Cadence Virtuoso** to verify the dynamic behavior of the SRAM during **Read**, **Write**, and **Hold** operations.
+
+The simulation demonstrates the switching characteristics of:
+- **Word Line (WL)**
+- **Bitlines (BL / BLB)**
+- **Read Bitline (RBL)**
+- **Storage Nodes (Q / QB)**
+
+### 📌 Objectives of Transient Analysis
+- Verify read operation
+- Verify write operation
+- Analyze hold stability
+- Observe switching behavior of storage nodes
+- Evaluate dynamic SRAM performance
+
+### 📌 Observations
+- Successful data writing and retention
+- Proper complementary switching of Q and QB
+- Stable read operation through RBL
+- Reliable transient response
+
+<p align="center">
+  <img src="Images/Transient Analysis.png" alt="Transient Analysis of Proposed 12T SRAM Cell" width="950"/>
+</p>
+
+<p align="center">
+  <b>Fig. Transient Analysis of Proposed 12T SRAM Cell</b>
+</p>
+
+
+# 🔷 DC Simulation for Butterfly Curve and SNM Evaluation
+
+DC simulation was performed in **Cadence Virtuoso** using **GPDK 90nm Technology** to evaluate the stability of the proposed **12T SRAM Cell** through butterfly curve analysis.
+
+The butterfly curve was obtained by plotting the voltage transfer characteristics (VTC) of two cross-coupled inverters. The maximum square that can fit inside the butterfly curve represents the **Static Noise Margin (SNM)** of the SRAM cell.
+
+### 📌 Objectives of DC Simulation
+- Evaluate SRAM stability
+- Measure Static Noise Margin (SNM)
+- Analyze read and hold stability
+- Verify noise immunity of the SRAM cell
+
+### 📌 Parameters Evaluated
+- **Read Static Noise Margin (RSNM)**
+- **Hold Static Noise Margin (HSNM)**
+- **Write Static Noise Margin (WSNM)**
+
+### 📌 Features Observed
+- Improved SRAM stability
+- Better noise tolerance
+- Enhanced reliability under process variations
+
+<p align="center">
+  <img src="Images/DC Simulation.png" alt="DC Simulation Butterfly Curve" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. DC Simulation for Butterfly Curve and SNM Evaluation of Proposed 12T SRAM Cell</b>
+</p>
+
+# 🔷 Monte Carlo Analysis of Proposed 12T SRAM Cell
+
+Monte Carlo analysis was performed in **Cadence Virtuoso** using **GPDK 90nm Technology** to evaluate the impact of process variations on the stability and reliability of the proposed **12T SRAM Cell**.
+
+The analysis helps in verifying the robustness of the SRAM cell under random variations in transistor parameters such as:
+- Threshold Voltage Variations
+- Channel Length Variations
+- Oxide Thickness Variations
+- Process Corners
+
+Monte Carlo simulations were carried out for:
+- **Write Static Noise Margin (WSNM)**
+- **Hold Static Noise Margin (HSNM)**
+- **Read Static Noise Margin (RSNM)**
+
+The obtained results demonstrate improved SRAM stability and tolerance against manufacturing variations.
+
+---
+
+# 🔷 WSNM Monte Carlo Curve of 12T SRAM Cell
+
+The Monte Carlo analysis for **Write Static Noise Margin (WSNM)** was performed to evaluate the write capability and reliability of the SRAM cell under process variations.
+
+### 📌 Observations
+- Stable write operation
+- Improved write reliability
+- Better tolerance against variations
+
+<p align="center">
+  <img src="Images/WSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="WSNM Monte Carlo Curve" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. WSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+# 🔷 HSNM Monte Carlo Curve of 12T SRAM Cell
+
+The Monte Carlo analysis for **Hold Static Noise Margin (HSNM)** was performed to verify the data retention capability of the SRAM cell during hold condition.
+
+### 📌 Observations
+- Stable data retention
+- Improved hold stability
+- Enhanced noise immunity
+
+<p align="center">
+  <img src="Images/HSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="HSNM Monte Carlo Curve" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. HSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+# 🔷 RSNM Monte Carlo Curve of 12T SRAM Cell
+
+The Monte Carlo analysis for **Read Static Noise Margin (RSNM)** was performed to evaluate the read stability of the SRAM cell under process variations.
+
+### 📌 Observations
+- Reliable read operation
+- Reduced read disturb issues
+- Improved read stability
+
+<p align="center">
+  <img src="Images/RSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="RSNM Monte Carlo Curve" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. RSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
+</p>
+
+# 🔷 Dynamic Power Analysis of Proposed 12T SRAM Cell
+
+Dynamic power analysis was performed in **Cadence Virtuoso** using **GPDK 90nm Technology** to evaluate the switching power consumption of the proposed **12T SRAM Cell** during SRAM operations.
+
+The dynamic power consumption is mainly caused by:
+- Charging and discharging of bitlines
+- Wordline switching activity
+- Internal node transitions
+
+### 📌 Monte Carlo Analysis Results
+- **Number of Samples** : 1000
+- **Mean Dynamic Power** : 660.859 nW
+- **Standard Deviation** : 14.4676 nW
+
+### 📌 Observations
+- Stable dynamic power distribution
+- Reduced switching power consumption
+- Improved power efficiency during SRAM operation
+
+<p align="center">
+  <img src="Images/Monte Carlo curve of Dynamic Power of 12T SRAM Cell.jpg" alt="Monte Carlo Curve of Dynamic Power of 12T SRAM Cell" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. Monte Carlo Curve of Dynamic Power of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+# 🔷 Leakage Power Analysis of Proposed 12T SRAM Cell
+
+Leakage power analysis was performed to evaluate the standby power consumption of the proposed **12T SRAM Cell** under idle conditions.
+
+Leakage power mainly occurs due to:
+- Subthreshold Leakage Current
+- Gate Oxide Leakage
+- Junction Leakage Current
+
+### 📌 Monte Carlo Analysis Results
+- **Number of Samples** : 1000
+- **Mean Leakage Power** : 156.807 µW
+- **Standard Deviation** : 5.13059 µW
+
+### 📌 Observations
+- Stable leakage power distribution
+- Improved standby power efficiency
+- Better low-power SRAM performance
+
+<p align="center">
+  <img src="Images/Monte Carlo curve of Leakage Power of 12T SRAM Cell.jpg" alt="Monte Carlo Curve of Leakage Power of 12T SRAM Cell" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. Monte Carlo Curve of Leakage Power of Proposed 12T SRAM Cell</b>
+</p>
+
+
+
+
 
 
 # 📊 Simulations Performed
 
+## ✅ Write Operation
+- Verified successful data overwrite
+- Evaluated **Write Static Noise Margin (WSNM)**
+
+- 
 ## ✅ Hold Operation
 - Verified stable data retention
 - Evaluated **Hold Static Noise Margin (HSNM)**
 
-## ✅ Write Operation
-- Verified successful data overwrite
-- Evaluated **Write Static Noise Margin (WSNM)**
+
 
 ## ✅ Read Operation
 - Verified stable read functionality

@@ -837,18 +837,48 @@ The read output buffer is connected after the sense amplifier to drive the final
   <b>Fig:-22. Sense Amplifier and Read Output Buffer for Proposed 4Kb SRAM</b>
 </p>
 
-# 📷 Project Includes
 
-- 12T SRAM Schematic
-- SRAM Symbol Design
-- Layout Design
-- Read/Write/Hold Waveforms
-- Monte Carlo Simulation Results
-- DRC/LVS Reports
-- RC Extraction Results
 
 ---
 
+# 🔷 Symbolic Representation of Proposed 4Kb SRAM Architecture
+
+The symbolic representation of the proposed **4Kb SRAM Architecture** was developed in **Cadence Virtuoso** using a hierarchical design approach. The complete memory architecture integrates the **12T SRAM Cell Array**, **9:512 Decoder**, **Write Driver**, **Precharge Circuit**, **Sense Amplifier**, and **Read Buffer** into a single functional memory block.
+
+The architecture supports efficient read and write operations with improved stability and noise immunity using the proposed **Schmitt Trigger-Based 12T SRAM Cell**.
+
+---
+
+## 📌 Main Functional Blocks
+
+- **9:512 Decoder** for wordline selection  
+- **Write Driver Circuit** for write operation  
+- **Precharge Circuit** for bitline precharging  
+- **Sense Amplifier** for fast read sensing  
+- **Read Buffer** for stable output generation  
+- **4Kb SRAM Cell Array** using proposed 12T SRAM cells  
+
+---
+
+## 📌 Features of the 4Kb SRAM Architecture
+
+✅ Hierarchical SRAM Design  
+✅ Differential Read and Write Operation  
+✅ Improved Read Stability  
+✅ Enhanced Noise Immunity  
+✅ Low Power Consumption  
+✅ Fast Read/Write Access  
+✅ Modular and Scalable Architecture  
+
+<p align="center">
+  <img src="Images/Symbolic Representation of Proposed 4Kb SRAM Architecture.png" 
+       alt="Symbolic Representation of Proposed 4Kb SRAM" 
+       width="450"/>
+</p>
+
+<p align="center">
+  <b>Fig:-23. Symbolic Representation of Proposed 4Kb SRAM Architecture</b>
+</p>
 
 
 # 🧩 Layout Implementation of Proposed 4Kb SRAM

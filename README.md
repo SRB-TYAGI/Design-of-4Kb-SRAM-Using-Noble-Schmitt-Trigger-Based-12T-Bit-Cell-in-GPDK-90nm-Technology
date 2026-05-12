@@ -1,0 +1,2 @@
+# Design-of-4Kb-SRAM-Using-Noble-Schmitt-Trigger-Based-12T-Bit-Cell-in-GPDK-90nm-Technology
+This repository contains the complete Senior Design Project (Final Year Project) on the design and analysis of a 4Kb SRAM using a Noble Schmitt Trigger-Based 12T Bit Cell in GPDK 90nm Technology with Cadence Virtuoso. The project focuses on improving SRAM stability, read/write reliability, and noise immunity using separate read and write paths

@@ -392,16 +392,102 @@ The proposed SRAM cell demonstrated:
 
 # 🧩 Physical Verification
 
-## ✅ DRC (Design Rule Check)
-No DRC violations were found in the layout.
+Physical verification of the proposed **12T SRAM Cell** was performed in **Cadence Virtuoso** using **GPDK 90nm Technology** to ensure the correctness of the layout design and post-layout functionality.
 
-## ✅ LVS (Layout Versus Schematic)
-The layout successfully matched the schematic.
-
-## ✅ RC Extraction
-Parasitic resistance and capacitance were successfully extracted for post-layout analysis.
+The verification process included:
+- **Layout Design**
+- **Design Rule Check (DRC)**
+- **Layout Versus Schematic (LVS)**
+- **RC Extraction**
 
 ---
+
+# 🔷 Layout Design of Proposed 12T SRAM Cell
+
+The layout of the proposed **12T SRAM Cell** was designed using custom VLSI layout techniques in **Cadence Virtuoso**. Proper transistor placement and metal routing were implemented to achieve compact area and reliable performance.
+
+### 📌 Features of the Layout
+- Compact layout structure
+- Optimized metal routing
+- Separate read and write paths
+- Differential bitline implementation
+- Improved layout symmetry
+
+<p align="center">
+  <img src="Images/Layout.png" alt="Layout Design of Proposed 12T SRAM Cell" width="900"/>
+</p>
+
+<p align="center">
+  <b>Fig. Layout Design of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+# ✅ DRC (Design Rule Check)
+
+Design Rule Check (**DRC**) was performed to verify that the layout follows all fabrication design rules defined by the **GPDK 90nm Technology**.
+
+### 📌 DRC Results
+- No DRC violations were found
+- Layout satisfies all technology constraints
+- Proper spacing and routing rules were maintained
+
+<p align="center">
+  <img src="Images/8.DRC.png" alt="DRC Verification Result" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. DRC Verification Result of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+# ✅ LVS (Layout Versus Schematic)
+
+Layout Versus Schematic (**LVS**) verification was performed to ensure that the generated layout exactly matches the schematic design of the proposed SRAM cell.
+
+### 📌 LVS Results
+- Layout successfully matched with schematic
+- All device connections were verified
+- No mismatch errors were found
+
+<p align="center">
+  <img src="Images/9.LVS.png" alt="LVS Verification Result" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. LVS Verification Result of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+<p align="center">
+  <img src="Images/No LVS Mismatched.png" alt="LVS Verification Result" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. LVS Verification Result of Proposed 12T SRAM Cell</b>
+</p>
+
+---
+
+# ✅ RC Extraction
+
+RC Extraction was performed to extract parasitic resistance and capacitance from the layout for post-layout analysis.
+
+### 📌 RC Extraction Results
+- Parasitic resistance successfully extracted
+- Parasitic capacitance successfully extracted
+- Post-layout parasitic effects analyzed
+- Improved timing and power estimation
+
+<p align="center">
+  <img src="Images/RC Extraction.png" alt="RC Extraction Result" width="850"/>
+</p>
+
+<p align="center">
+  <b>Fig. RC Extraction Result of Proposed 12T SRAM Cell</b>
+</p>
 
 # 📂 Repository Structure
 

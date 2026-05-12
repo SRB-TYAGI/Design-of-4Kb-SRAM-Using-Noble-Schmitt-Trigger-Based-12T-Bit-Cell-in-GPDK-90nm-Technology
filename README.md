@@ -6,6 +6,7 @@ The project focuses on improving **SRAM Stability**, **Read/Write Reliability**,
 
 ---
 
+
 # 📌 Introduction
 
 Static Random Access Memory (**SRAM**) is widely used in high-speed memory applications due to its fast access time and low latency. However, conventional SRAM cells suffer from challenges such as reduced stability, read disturb issues, and poor noise immunity at scaled technologies.
@@ -113,7 +114,7 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
 <table>
 <tr>
 
-<td width="30%">
+<td width="35%">
   
 # 📌 Pins Description
   
@@ -127,7 +128,7 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
 
 </td>
 
-<td width="45%" align="center">
+<td width="40%" align="center">
 
 <img src="Images/Symbolic Representation of Proposed 12T SRAM Cell.png" alt="Symbolic Representation of Proposed 12T SRAM Cell" width="350"/>
 
@@ -137,6 +138,7 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
 
 </tr>
 </table>
+
 ---
 
 # 🔷 Pre-Layout Simulation of Proposed 12T SRAM Cell

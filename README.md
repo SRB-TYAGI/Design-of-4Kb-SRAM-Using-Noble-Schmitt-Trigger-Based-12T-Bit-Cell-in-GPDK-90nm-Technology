@@ -97,6 +97,7 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
 ---
 
 # 📌 Features of the Symbol
+
 - **Compact and Modular Design**
 - **Easy Hierarchical Integration**
 - **Separate Read and Write Control Signals**
@@ -105,23 +106,37 @@ The symbolic representation of the proposed **12T SRAM Cell** was created in **C
 - **Power Supply Pins (VDD / GND)**
 - **Storage Node Outputs (Q / QB)**
 
-### 📌 Pins Description
-- **WL** → Write Word Line
-- **RWL** → Read Word Line
-- **BL / BLB** → Differential Write Bitlines
-- **RBL** → Read Bitline
-- **Q / QB** → Stored Data Outputs
-- **CONTROL** → Control Signal for SRAM Operation
-- **VDD / GND** → Power Supply Connections
 
-<p align="center">
-  <img src="Images/Symbolic Representation of Proposed 12T SRAM Cell.png" alt="Symbolic Representation of Proposed 12T SRAM Cell" width="500"/>
-</p>
 
-<p align="center">
-  <b>Fig:-3. Symbolic Representation of Proposed 12T SRAM Cell</b>
-</p>
 
+
+<table>
+<tr>
+
+<td width="30%">
+  
+# 📌 Pins Description
+  
+- **WL** → Write Word Line  
+- **RWL** → Read Word Line  
+- **BL / BLB** → Differential Write Bitlines  
+- **RBL** → Read Bitline  
+- **Q / QB** → Stored Data Outputs  
+- **CONTROL** → Control Signal for SRAM Operation  
+- **VDD / GND** → Power Supply Connections  
+
+</td>
+
+<td width="45%" align="center">
+
+<img src="Images/Symbolic Representation of Proposed 12T SRAM Cell.png" alt="Symbolic Representation of Proposed 12T SRAM Cell" width="350"/>
+
+<b>Fig:-3. Symbolic Representation of Proposed 12T SRAM Cell</b>
+
+</td>
+
+</tr>
+</table>
 ---
 
 # 🔷 Pre-Layout Simulation of Proposed 12T SRAM Cell

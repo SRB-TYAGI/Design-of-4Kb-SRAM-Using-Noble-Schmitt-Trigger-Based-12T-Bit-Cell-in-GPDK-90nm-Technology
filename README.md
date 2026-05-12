@@ -254,7 +254,7 @@ The Monte Carlo analysis for **Write Static Noise Margin (WSNM)** was performed 
 - Better tolerance against variations
 
 <p align="center">
-  <img src="Images/WSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="WSNM Monte Carlo Curve" width="850"/>
+  <img src="Images/WSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="WSNM Monte Carlo Curve" width="500"/>
 </p>
 
 <p align="center">
@@ -273,7 +273,7 @@ The Monte Carlo analysis for **Hold Static Noise Margin (HSNM)** was performed t
 - Enhanced noise immunity
 
 <p align="center">
-  <img src="Images/HSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="HSNM Monte Carlo Curve" width="850"/>
+  <img src="Images/HSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="HSNM Monte Carlo Curve" width="500"/>
 </p>
 
 <p align="center">
@@ -292,12 +292,14 @@ The Monte Carlo analysis for **Read Static Noise Margin (RSNM)** was performed t
 - Improved read stability
 
 <p align="center">
-  <img src="Images/RSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="RSNM Monte Carlo Curve" width="850"/>
+  <img src="Images/RSNM Monte Carlo Curve of 12-T SRAM Cell.png" alt="RSNM Monte Carlo Curve" width="500"/>
 </p>
 
 <p align="center">
   <b>Fig:-9. RSNM Monte Carlo Curve of Proposed 12T SRAM Cell</b>
 </p>
+
+---
 
 # 🔷 Dynamic Power Analysis of Proposed 12T SRAM Cell
 
@@ -319,7 +321,7 @@ The dynamic power consumption is mainly caused by:
 - Improved power efficiency during SRAM operation
 
 <p align="center">
-  <img src="Images/Monte Carlo curve of Dynamic Power of 12T SRAM Cell.jpg" alt="Monte Carlo Curve of Dynamic Power of 12T SRAM Cell" width="850"/>
+  <img src="Images/Monte Carlo curve of Dynamic Power of 12T SRAM Cell.jpg" alt="Monte Carlo Curve of Dynamic Power of 12T SRAM Cell" width="500"/>
 </p>
 
 <p align="center">
@@ -348,7 +350,7 @@ Leakage power mainly occurs due to:
 - Better low-power SRAM performance
 
 <p align="center">
-  <img src="Images/Monte Carlo curve of Leakage Power of 12T SRAM Cell.jpg" alt="Monte Carlo Curve of Leakage Power of 12T SRAM Cell" width="850"/>
+  <img src="Images/Monte Carlo curve of Leakage Power of 12T SRAM Cell.jpg" alt="Monte Carlo Curve of Leakage Power of 12T SRAM Cell" width="500"/>
 </p>
 
 <p align="center">
@@ -419,7 +421,7 @@ The layout of the proposed **12T SRAM Cell** was designed using custom VLSI layo
 - Improved layout symmetry
 
 <p align="center">
-  <img src="Images/Layout.png" alt="Layout Design of Proposed 12T SRAM Cell" width="900"/>
+  <img src="Images/Layout.png" alt="Layout Design of Proposed 12T SRAM Cell" width="500"/>
 </p>
 
 <p align="center">
@@ -438,7 +440,7 @@ Design Rule Check (**DRC**) was performed to verify that the layout follows all 
 - Proper spacing and routing rules were maintained
 
 <p align="center">
-  <img src="Images/8.DRC.png" alt="DRC Verification Result" width="850"/>
+  <img src="Images/8.DRC.png" alt="DRC Verification Result" width="500"/>
 </p>
 
 <p align="center">
@@ -457,7 +459,7 @@ Layout Versus Schematic (**LVS**) verification was performed to ensure that the 
 - No mismatch errors were found
 
 <p align="center">
-  <img src="Images/9.LVS.png" alt="LVS Verification Result" width="850"/>
+  <img src="Images/9.LVS.png" alt="LVS Verification Result" width="500"/>
 </p>
 
 <p align="center">
@@ -467,7 +469,7 @@ Layout Versus Schematic (**LVS**) verification was performed to ensure that the 
 ---
 
 <p align="center">
-  <img src="Images/No LVS Mismatched.png" alt="LVS Verification Result" width="850"/>
+  <img src="Images/No LVS Mismatched.png" alt="LVS Verification Result" width="500"/>
 </p>
 
 <p align="center">
@@ -487,7 +489,7 @@ RC Extraction was performed to extract parasitic resistance and capacitance from
 - Improved timing and power estimation
 
 <p align="center">
-  <img src="Images/RC Extraction.png" alt="RC Extraction Result" width="850"/>
+  <img src="Images/RC Extraction.png" alt="RC Extraction Result" width="500"/>
 </p>
 
 <p align="center">
@@ -571,7 +573,7 @@ The Schmitt Trigger feedback mechanism improves SRAM performance by:
 ---
 
 <p align="center">
-  <img src="Images/Hysteresis Concept.png" alt="Schmitt Trigger Concept and SRAM Benefits" width="1000"/>
+  <img src="Images/Hysteresis Concept.png" alt="Schmitt Trigger Concept and SRAM Benefits" width="500"/>
 </p>
 
 <p align="center">
@@ -628,7 +630,7 @@ The proposed 4Kb SRAM architecture consists of:
 - Enhanced Process Variation Tolerance
 
 <p align="center">
-  <img src="Images/Schematic Architecture of 4kb.png" alt="4Kb SRAM Architecture" width="950"/>
+  <img src="Images/Schematic Architecture of 4kb.png" alt="4Kb SRAM Architecture" width="500"/>
 </p>
 
 <p align="center">
@@ -650,7 +652,7 @@ A **9:512 Decoder** was designed to select one wordline among 512 rows in the SR
 The decoder activates only one wordline at a time based on the applied address input.
 
 <p align="center">
-  <img src="Images/Decorder.png" alt="9:512 Decoder Design" width="850"/>
+  <img src="Images/Decorder.png" alt="9:512 Decoder Design" width="500"/>
 </p>
 
 <p align="center">
@@ -670,7 +672,7 @@ The SRAM array was created by arranging multiple 12T SRAM cells in matrix form t
 - Compact Layout Organization
 
 <p align="center">
-  <img src="Images/SRAM Array Implementation.png" alt="4Kb SRAM Array" width="950"/>
+  <img src="Images/SRAM Array Implementation.png" alt="4Kb SRAM Array" width="500"/>
 </p>
 
 <p align="center">
@@ -741,7 +743,7 @@ During the read/write operation:
 - Enhanced SRAM Stability
 
 <p align="center">
-  <img src="Images/Precharge Circuit.png" alt="Precharge Circuit for Proposed 4Kb SRAM" width="950"/>
+  <img src="Images/Precharge Circuit.png" alt="Precharge Circuit for Proposed 4Kb SRAM" width="500"/>
 </p>
 
 <p align="center">
@@ -811,7 +813,7 @@ The read output buffer is connected after the sense amplifier to drive the final
 - Reduced Read Delay
 
 <p align="center">
-  <img src="Images/Sense Amplifier and Read Output Buffer.png" alt="Sense Amplifier and Read Output Buffer" width="950"/>
+  <img src="Images/Sense Amplifier and Read Output Buffer.png" alt="Sense Amplifier and Read Output Buffer" width="500"/>
 </p>
 
 <p align="center">
@@ -885,7 +887,7 @@ The SRAM array was organized in a compact structure to optimize:
 - Enhanced Low-Power Performance
 
 <p align="center">
-  <img src="Images/SRAM_4kb_Layout.png" alt="Layout of Proposed 4Kb SRAM" width="1000"/>
+  <img src="Images/SRAM_4kb_Layout.png" alt="Layout of Proposed 4Kb SRAM" width="500"/>
 </p>
 
 <p align="center">
